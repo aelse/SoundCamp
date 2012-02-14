@@ -4,6 +4,14 @@ var sounds = {
 
 var audio = null;
 
+function tellPlaySound(sound) {
+    var input = $('#input')[0];
+    var copy = input.value;
+    input.value = ':soundcamp '+ sound;
+    $('#send').click();
+    input.value = copy;
+}
+
 function playSound(sound) {
     if (audio) {
         audio.pause();
