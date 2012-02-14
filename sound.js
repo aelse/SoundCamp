@@ -24,24 +24,12 @@ function playSound(sound) {
     audio.play()
 }
 
-function pantsInPage() {
-    var cc = document.getElementById('chat_controls');
-    var ui = document.createElement('div');
-    ui.setAttribute('id', 'soundcamp_sounds');
-    ui.setAttribute('class', 'tooltip');
-    cc.appendChild(ui);
+function initControls() {
+    $('<div>').attr('id', 'soundcamp_sounds').attr('class', 'tooltip').attr('width', '18px').attr('height', '16px').attr('style', 'margin: 2px 5px;').appendTo('#chat_controls');
+    $('<img>').attr('src',
+    chrome.extension.getURL('music.png')).attr('id', 'soundcamp_button').attr('width', '16').attr('height', '15').appendTo('#soundcamp_sounds');
 
-    var link = document.createElement('a');
-    //link.setAttribute('onClick', "playSound('grenade')");
-    link.addEventListener('click', function() {
-        playSound("grenade");
-    }, false);
-    link.appendChild(document.createTextNode("play grenade"));
-    ui.appendChild(link);
+    $('#soundcamp_button').click(function() { playSound('grenade'); });
 }
 
-//chrome.browserAction.onClicked.addListener(function(tab) {
-//    playSound('grenade');
-//});
-
-pantsInPage();
+initControls();
