@@ -11,6 +11,9 @@ function playSound(sound) {
         audio = null;
     }
 
+    if(!sounds[sound])
+        return;
+
     var src = "sounds/" + sounds[sound];
 
     audio = document.createElement('audio');
