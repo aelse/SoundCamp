@@ -14,15 +14,34 @@ function playSound(sound) {
     if(!sounds[sound])
         return;
 
-    var src = "sounds/" + sounds[sound];
+    var src = chrome.extension.getURL("sounds/" + sounds[sound]);
 
     audio = document.createElement('audio');
     document.body.appendChild(audio);
     audio.autoplay = true;
     audio.src = src;
     audio.load()
+    audio.play()
 }
 
-chrome.browserAction.onClicked.addListener(function(tab) {
-    playSound('grenade');
-});
+function pantsInPage() {
+    var cc = document.getElementById('chat_controls');
+    var ui = document.createElement('div');
+    ui.setAttribute('id', 'soundcamp_sounds');
+    ui.setAttribute('class', 'tooltip');
+    cc.appendChild(ui);
+
+    var link = document.createElement('a');
+    //link.setAttribute('onClick', "playSound('grenade')");
+    link.addEventListener('click', function() {
+        playSound("grenade");
+    }, false);
+    link.appendChild(document.createTextNode("play grenade"));
+    ui.appendChild(link);
+}
+
+//chrome.browserAction.onClicked.addListener(function(tab) {
+//    playSound('grenade');
+//});
+
+pantsInPage();
