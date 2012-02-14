@@ -12,7 +12,7 @@
   "content_scripts": [
     {
       "matches": ["https://*.campfirenow.com/room/*"],
-      "js": ["sound.js"]
+      "js": ["jquery-1.7.1.min.js", "sound.js"]
     }
   ]
 }
