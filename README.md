@@ -8,6 +8,16 @@ It was created in the spirit of
 but the sounds will only play in browsers that have this plugin
 installed (ie. these are not native Campfire sounds).
 
+Install
+=======
+
+If you just want to install the latest version of the extension,
+go to http://aelse.github.com/SoundCamp and follow the instructions.
+
+If you want to add your own sounds you'll need to add any sounds
+and images to their respective directories and modify the sounds
+array in sound.js.
+
 Credits
 =======
 
