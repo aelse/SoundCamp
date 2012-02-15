@@ -56,18 +56,23 @@ function playSound(sound) {
     audio.play()
 }
 
+function processSoundCommand(msgBody, play) {
+    var msg = msgBody.html();
+    var m = re.exec(msg);
+    if (m != null) {
+        var sound = msg.replace(':soundcamp ', '');
+        //msgBody.replaceWith(sound);
+        msgBody.html(chatSoundHTML(sound));
+        if (play)
+            playSound(sound);
+    }
+}
+
 function receivedMessage(e) {
     var t = e.target;
     if (t.tagName.toLowerCase() === 'tr' && t.id === 'message_pending') {
         var msgBody = $(t).find('div.body');
-        var msg = msgBody.html();
-        var m = re.exec(msg);
-        if (m != null) {
-            var sound = msg.replace(':soundcamp ', '');
-            //msgBody.replaceWith(sound);
-            msgBody.html(chatSoundHTML(sound));
-            playSound(sound);
-        }
+        processSoundCommand(msgBody, true);
     }
 }
 
