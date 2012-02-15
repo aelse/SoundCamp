@@ -67,3 +67,7 @@
     height: 12px;
     opacity: 0.25;
 }
+
+.scMsgUnknown {
+    opacity: 0.75;
+}

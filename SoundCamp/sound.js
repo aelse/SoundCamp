@@ -30,7 +30,9 @@ function tellPlaySound(sound) {
 function addChatSoundHTML(node, sound) {
     var s = sounds[sound];
     if (!s) {
-        return sound;
+        node.html('<span class="scMsgUnknown">Unknown sound "'+
+            sound +'".</span>');
+        return;
     }
 
     var html = '';
