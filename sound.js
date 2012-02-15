@@ -1,5 +1,6 @@
 var sounds = {
-    "grenade": "33245__ljudman__grenade.ogg",
+    // key : [ label, soundfile, image, text ]
+    "grenade": ["Grenade", "33245__ljudman__grenade.ogg", 'grenade.png', 'Fire in the hole!'],
 }
 
 var audio = null;
@@ -13,6 +14,28 @@ function tellPlaySound(sound) {
     input.value = copy;
 }
 
+function chatSoundHTML(sound) {
+    var s = sounds[sound];
+    if (!s) {
+        return sound;
+    }
+
+    var html = '';
+    if (s[2]) {
+        html += '<span style="padding-left: 5px;"><img src="'+
+            chrome.extension.getURL("images/" + s[2]) +
+            '" height="15px"></span>';
+    }
+    if (s[3]) {
+        html += '<span style="padding-left: 5px;">'+ s[3] +'</span>';
+    }
+    if (html === '') {
+        html = '<span style="padding-left: 5px;">'+ s[0] +'</span>';
+    }
+    var snd_img = '<img alt="Sound" height="12" src="/images/sound.png" width="12">';
+    return snd_img + html;
+}
+
 function playSound(sound) {
     if (audio) {
         audio.pause();
@@ -23,7 +46,7 @@ function playSound(sound) {
     if(!sounds[sound])
         return;
 
-    var src = chrome.extension.getURL("sounds/" + sounds[sound]);
+    var src = chrome.extension.getURL("sounds/" + sounds[sound][1]);
 
     audio = document.createElement('audio');
     document.body.appendChild(audio);
@@ -41,6 +64,8 @@ function receivedMessage(e) {
         var m = re.exec(msg);
         if (m != null) {
             var sound = msg.replace(':soundcamp ', '');
+            //msgBody.replaceWith(sound);
+            msgBody.html(chatSoundHTML(sound));
             playSound(sound);
         }
     }
