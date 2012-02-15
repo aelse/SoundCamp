@@ -76,6 +76,12 @@ function receivedMessage(e) {
     }
 }
 
+function scanAllMessages() {
+    $('div.body').each(function() {
+        processSoundCommand($(this), false);
+    });
+}
+
 function initControls() {
     $('<div>').attr('id', 'soundcamp_sounds').attr('class', 'tooltip').attr('width', '18px').attr('height', '16px').attr('style', 'margin: 2px 5px;').appendTo('#chat_controls');
     $('<img>').attr('src',
@@ -88,5 +94,6 @@ function initListener() {
     $('#chat').bind('DOMNodeInserted', receivedMessage);
 }
 
+scanAllMessages();
 initControls();
 initListener();
