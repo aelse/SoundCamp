@@ -1,6 +1,6 @@
 {
   "name": "SoundCamp",
-  "version": "1.3",
+  "version": "1.4",
   "update_url": "http://aelse.github.com/SoundCamp/updates.xml",
   "description": "Custom sounds for campfire.",
   "icons": { "128": "images/speaker_128.png" },
