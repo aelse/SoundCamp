@@ -90,10 +90,29 @@ function scanAllMessages() {
 
 function initControls() {
     $('<div>').attr('id', 'soundcamp_sounds').attr('class', 'tooltip').appendTo('#chat_controls');
+    $('<span>').attr('id', 'soundcampContainer').attr('class', 'tooltip-inner').appendTo('#soundcamp_sounds');
     $('<img>').attr('src',
     chrome.extension.getURL('images/music.png')).attr('id', 'soundcamp_button').attr('width', '16').attr('height', '15').appendTo('#soundcamp_sounds');
 
-    $('#soundcamp_button').click(function() { tellPlaySound('grenade'); });
+    var sound;
+    for (sound in sounds) {
+        $('#soundcampContainer').append('<a class="sound" data-value="'+
+            sound +'">' + (sounds[sound])[0]);
+    }
+
+    $(document).click(function (e) {
+        if (e.target.id !== 'soundcamp_button' &&
+            $('#soundcamp_button').find(e.target).length === 0) {
+                $('#soundcampContainer').hide();
+        } else {
+            $('#soundcampContainer').toggle();
+        }
+    });
+
+    $('#soundcampContainer').children('.sound').click(function() {
+        var sound = this.getAttribute('data-value');
+        tellPlaySound(sound);
+    });
 }
 
 function initListener() {
