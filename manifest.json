@@ -14,6 +14,7 @@
   "content_scripts": [
     {
       "matches": ["*://*.campfirenow.com/room/*"],
+      "css": ["soundcamp.css"],
       "js": ["jquery-1.7.1.min.js", "sound.js"]
     }
   ]
