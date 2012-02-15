@@ -3,6 +3,7 @@ var sounds = {
     // key : [ label, soundfile, image, text ]
     "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
+    "catchaboat": ["Catch a boat", "ricky-catch_a_boat.ogg", "ricky.png", null],
     "communicate": ["Communicate", "chl-communicate.ogg", null, "What we have here..."],
     "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
     "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
@@ -12,7 +13,9 @@ var sounds = {
     "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
     "jack": ["Jack", "aod-jack.ogg", null, null],
     "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
+    "timmy": ["Timmy!", "timmy.ogg", "timmy.png", null],
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
+    "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
 }
 
 var audio = null;
