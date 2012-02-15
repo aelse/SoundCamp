@@ -8,3 +8,9 @@
 .scMsg {
     padding-left: 5px;
 }
+
+.scSndIcon {
+    width: 12px;
+    height: 12px;
+    opacity: 0.25;
+}

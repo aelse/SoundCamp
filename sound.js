@@ -33,8 +33,8 @@ function addChatSoundHTML(node, sound) {
         html = '<span class="scMsg">'+ s[0] +'</span>';
     }
 
-    var snd_img = $('<img>').attr('alt', "Sound").attr('height',
-    '12').attr('src', '/images/sound.png').attr('width', '12');
+    var snd_img = $('<img>').attr('alt', "Sound").attr('class',
+    'scSndIcon').attr('src', '/images/sound.png');
     $(snd_img).click(function() { playSound(sound); });
 
     node.html('');
