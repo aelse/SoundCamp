@@ -5,6 +5,10 @@
     opacity: 0.75;
 }
 
+#soundcamp_sounds:hover {
+    opacity: 0.95;
+}
+
 #soundcampContainer {
     width: 132px;
     margin-left: -78px;
