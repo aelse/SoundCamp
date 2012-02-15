@@ -22,15 +22,15 @@ function addChatSoundHTML(node, sound) {
 
     var html = '';
     if (s[2]) {
-        html += '<span style="padding-left: 5px;"><img src="'+
+        html += '<span class="scMsg"><img src="'+
             chrome.extension.getURL("images/" + s[2]) +
             '" height="15px"></span>';
     }
     if (s[3]) {
-        html += '<span style="padding-left: 5px;">'+ s[3] +'</span>';
+        html += '<span class="scMsg">'+ s[3] +'</span>';
     }
     if (html === '') {
-        html = '<span style="padding-left: 5px;">'+ s[0] +'</span>';
+        html = '<span class="scMsg">'+ s[0] +'</span>';
     }
 
     var snd_img = $('<img>').attr('alt', "Sound").attr('height',
