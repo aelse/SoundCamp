@@ -14,7 +14,7 @@ function tellPlaySound(sound) {
     input.value = copy;
 }
 
-function chatSoundHTML(sound) {
+function addChatSoundHTML(node, sound) {
     var s = sounds[sound];
     if (!s) {
         return sound;
@@ -32,8 +32,14 @@ function chatSoundHTML(sound) {
     if (html === '') {
         html = '<span style="padding-left: 5px;">'+ s[0] +'</span>';
     }
-    var snd_img = '<img alt="Sound" height="12" src="/images/sound.png" width="12">';
-    return snd_img + html;
+
+    var snd_img = $('<img>').attr('alt', "Sound").attr('height',
+    '12').attr('src', '/images/sound.png').attr('width', '12');
+    $(snd_img).click(function() { playSound(sound); });
+
+    node.html('');
+    node.append(snd_img);
+    node.append(html);
 }
 
 function playSound(sound) {
@@ -62,7 +68,7 @@ function processSoundCommand(msgBody, play) {
     if (m != null) {
         var sound = msg.replace(':soundcamp ', '');
         //msgBody.replaceWith(sound);
-        msgBody.html(chatSoundHTML(sound));
+        addChatSoundHTML(msgBody, sound);
         if (play)
             playSound(sound);
     }
