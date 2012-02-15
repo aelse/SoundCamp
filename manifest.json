@@ -2,9 +2,10 @@
   "name": "SoundCamp",
   "version": "1.0",
   "description": "Custom sounds for campfire.",
-  "browser_action": {
-    "default_icon": "images/speaker.png"
-  },
+  //"browser_action": {
+  //  "default_icon": "images/speaker.png"
+  //},
+  "icons": { "128": "images/speaker_128.png", },
   "permissions": [
     "notifications",
     "tabs",
