@@ -4,6 +4,7 @@ var sounds = {
     "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
     "communicate": ["Communicate", "chl-communicate.ogg", null, "What we have here..."],
+    "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
     "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
     "grenade": ["Grenade", "33245__ljudman__grenade.ogg", "grenade.png", "Fire in the hole!"],
     "groovy": ["Groovy", "aod-groovy.ogg", null, null],
