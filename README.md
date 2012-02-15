@@ -26,3 +26,9 @@ some css and javascript from Kindling for the sound menu.
 
 Sounds and images have been added from publically available
 sources.
+
+License
+=======
+
+SoundCamp is released under version 2 of the GNU General Public License
+as published by the Free Software Foundation. [License Information](http://www.gnu.org/licenses/)
