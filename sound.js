@@ -16,6 +16,7 @@ var sounds = {
 
 var audio = null;
 var re = /:soundcamp \w+/;
+var mre = /message_/;
 
 function tellPlaySound(sound) {
     var input = $('#input')[0];
@@ -87,7 +88,7 @@ function processSoundCommand(msgBody, play) {
 
 function receivedMessage(e) {
     var t = e.target;
-    if (t.tagName.toLowerCase() === 'tr' && t.id === 'message_pending') {
+    if (t.tagName.toLowerCase() === 'tr' && mre.exec(t.id)) {
         var msgBody = $(t).find('div.body');
         processSoundCommand(msgBody, true);
     }
