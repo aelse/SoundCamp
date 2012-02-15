@@ -1,6 +1,11 @@
 var sounds = {
     // key : [ label, soundfile, image, text ]
-    "grenade": ["Grenade", "33245__ljudman__grenade.ogg", 'grenade.png', 'Fire in the hole!'],
+    "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
+    "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
+    "grenade": ["Grenade", "33245__ljudman__grenade.ogg", "grenade.png", "Fire in the hole!"],
+    "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
+    "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
+    "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
 }
 
 var audio = null;
