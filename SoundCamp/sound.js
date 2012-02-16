@@ -1,11 +1,16 @@
 // Sorted alphabetically by label (first element of array)
 var sounds = {
     // key : [ label, soundfile, image, text ]
+    "alive": ["Alive", "alive.ogg", null, "It's alive!"],
+    "alrighty": ["Alrighty then", "alrighty_then.ogg", null, null],
     "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
+    "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],
+    "bug": ["Bug found", "we_have_a_bug.ogg", "bug.png", "We have a bug"],
     "catchaboat": ["Catch a boat", "ricky-catch_a_boat.ogg", "ricky.png", null],
     "communicate": ["Communicate", "chl-communicate.ogg", null, "What we have here..."],
     "developers": ["Developers...", "steve_ballmer-developers.ogg", "steve_ballmer.png", null],
+    "espresso": ["Coffee, anyone?", "espresso.ogg", "espresso.png", "Anyone for coffee?"],
     "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
     "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
     "grenade": ["Grenade", "33245__ljudman__grenade.ogg", "grenade.png", "Fire in the hole!"],
