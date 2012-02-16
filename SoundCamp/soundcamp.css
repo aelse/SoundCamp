@@ -62,6 +62,10 @@
     padding-left: 5px;
 }
 
+.scImg {
+    height: 18px;
+}
+
 .scSndIcon {
     width: 12px;
     height: 12px;

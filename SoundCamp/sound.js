@@ -43,9 +43,9 @@ function addChatSoundHTML(node, sound) {
 
     var html = '';
     if (s[2]) {
-        html += '<span class="scMsg"><img src="'+
+        html += '<span class="scMsg"><img class="scImg" src="'+
             chrome.extension.getURL("images/" + s[2]) +
-            '" height="18px"></span>';
+            '"></span>';
     }
     if (s[3]) {
         html += '<span class="scMsg">'+ s[3] +'</span>';
