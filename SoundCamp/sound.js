@@ -62,6 +62,14 @@ function addChatSoundHTML(node, sound) {
     node.append(html);
 }
 
+function soundEnabled() {
+    var img = $('#toggle_sounds_link').find('img');
+    var state = $(img).attr('alt');
+    if (state == 'Sound-on')
+        return true;
+    return false;
+}
+
 function playSound(sound) {
     if (audio) {
         audio.pause();
@@ -89,7 +97,7 @@ function processSoundCommand(msgBody, play) {
         var sound = msg.replace(':soundcamp ', '');
         //msgBody.replaceWith(sound);
         addChatSoundHTML(msgBody, sound);
-        if (play)
+        if (play && soundEnabled())
             playSound(sound);
     }
 }
