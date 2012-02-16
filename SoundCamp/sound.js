@@ -10,7 +10,7 @@ var sounds = {
     "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
     "grenade": ["Grenade", "33245__ljudman__grenade.ogg", "grenade.png", "Fire in the hole!"],
     "groovy": ["Groovy", "aod-groovy.ogg", null, null],
-    "hailking": ["Hail", "aod-hailking.ogg", "crown.png", null],
+    "hailking": ["Hail to the king", "aod-hailking.ogg", "crown.png", null],
     "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
     "jack": ["Jack", "aod-jack.ogg", null, null],
     "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
