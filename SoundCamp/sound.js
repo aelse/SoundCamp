@@ -23,6 +23,7 @@ var sounds = {
     "livinalie": ["Livin' a lie", "timmy_livinalie.ogg", "timmy.png", "Timmah!"],
     "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
     "ladiesandgents": ["Steve Ballmer", "steve_ballmer-ladies_and_gentleman.ogg", "steve_ballmer.png", null],
+    "tardis": ["Tardis", "tardis.ogg", "tardis.png", "wooOOooww wooOOoow wooOOoow" ],
     "final": ["The Final Countdown", "final.ogg", null, "The Final Countdown" ],
     "timmy": ["Timmy!", "timmy.ogg", "timmy.png", null],
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
