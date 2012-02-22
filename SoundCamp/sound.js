@@ -1,6 +1,7 @@
 // Sorted alphabetically by label (first element of array)
 var sounds = {
     // key : [ label, soundfile, image, text ]
+    "boo": ["ಠ_ಠ", "boohiss.ogg", null, null],
     "alive": ["Alive", "alive.ogg", null, "It's alive!"],
     "alrighty": ["Alrighty then", "alrighty_then.ogg", null, null],
     "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
