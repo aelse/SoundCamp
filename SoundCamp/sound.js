@@ -16,6 +16,7 @@ var sounds = {
     "groovy": ["Groovy", "aod-groovy.ogg", null, null],
     "hailking": ["Hail to the king", "aod-hailking.ogg", "crown.png", null],
     "hoaah": ["Hoaah", "timmy_hoaah.ogg", "timmy.png", null],
+    "hypnotoad": ["Hypnotoad", "hypnotoa.ogg", "hypnotoad.png", "ALL GLORY TO THE HYPNOTOAD!"],
     "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
     "jack": ["Jack", "aod-jack.ogg", null, null],
     "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
