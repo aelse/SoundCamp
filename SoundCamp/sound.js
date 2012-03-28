@@ -18,7 +18,7 @@ var sounds = {
     "grumpy": ["Grumpy?", "llgrump.ogg", null, null],
     "hailking": ["Hail to the king", "aod-hailking.ogg", "crown.png", null],
     "hoaah": ["Hoaah", "timmy_hoaah.ogg", "timmy.png", null],
-    "hypnotoad": ["Hypnotoad", "hypnotoa.ogg", "hypnotoad.png", "ALL GLORY TO THE HYPNOTOAD!"],
+    "hypnotoad": ["Hypnotoad", "hypnotoa.ogg", "hypnotoad.gif", "ALL GLORY TO THE HYPNOTOAD!"],
     "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
     "jack": ["Jack", "aod-jack.ogg", null, null],
