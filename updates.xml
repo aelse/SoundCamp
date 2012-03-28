@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <gupdate xmlns='http://www.google.com/update2/response' protocol='2.0'>
   <app appid='njbbagioijlkehgjmldbjolaipmdihfd'>
-    <updatecheck codebase='http://aelse.github.com/SoundCamp/SoundCamp.crx' version='1.14' />
-    <updatecheck codebase='http://aelse.github.com/SoundCamp/SoundCamp.crx' version='1.13' />
+    <updatecheck codebase='http://aelse.github.com/SoundCamp/SoundCamp-1.15.crx' version='1.15' />
   </app>
 </gupdate>
