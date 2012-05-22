@@ -22,6 +22,7 @@ var sounds = {
     "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
     "jack": ["Jack", "aod-jack.ogg", null, null],
+    "jebus": ["Jebus", "jesus_christ.ogg", null, null],
     "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
     "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
     "leeroy": ["Leeroy", "leeroy_jenkins.ogg", null, "At least I have chicken."],
