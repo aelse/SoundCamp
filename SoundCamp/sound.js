@@ -13,6 +13,7 @@ var sounds = {
     "communicate": ["Communicate", "chl-communicate.ogg", null, "What we have here..."],
     "developers": ["Developers...", "steve_ballmer-developers.ogg", "steve_ballmer.png", null],
     "exterminate": ["Exterminate!", "dalek-exterminate.ogg", "dalek.png", "Exterminate!"],
+    "facepalm": ["Facepalm", null, "facepalm.png", "..."],
     "grenade": ["Grenade", "33245__ljudman__grenade.ogg", "grenade.png", "Fire in the hole!"],
     "groovy": ["Groovy", "aod-groovy.ogg", null, null],
     "grumpy": ["Grumpy?", "llgrump.ogg", null, null],
@@ -99,6 +100,8 @@ function playSound(sound) {
         return;
 
     var src = chrome.extension.getURL("sounds/" + sounds[sound][1]);
+    if (!src)
+        return;
 
     audio = document.createElement('audio');
     document.body.appendChild(audio);
