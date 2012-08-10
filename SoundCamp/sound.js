@@ -22,6 +22,7 @@ var sounds = {
     "hypnotoad": ["Hypnotoad", "hypnotoad.ogg", "hypnotoad.gif", "ALL GLORY TO THE HYPNOTOAD!"],
     "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
+    "trap": ["It's a trap!", null, "images/star_wars_its_a_trap.png", null],
     "jack": ["Jack", "aod-jack.ogg", null, null],
     "jebus": ["Jebus", "jesus_christ.ogg", null, null],
     "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
