@@ -24,7 +24,7 @@ var sounds = {
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
     "trap": ["It's a trap!", null, "images/star_wars_its_a_trap.png", null],
     "jack": ["Jack", "aod-jack.ogg", null, null],
-    "jebus": ["Jebus", "jesus_christ.ogg", null, null],
+    "jebus": ["Jebus", "jesus_christ.ogg", "images/mr_slave.png", null],
     "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
     "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
     "leeroy": ["Leeroy", "leeroy_jenkins.ogg", null, "At least I have chicken."],
