@@ -32,7 +32,7 @@ var sounds = {
     "livinalie": ["Livin' a lie", "timmy_livinalie.ogg", "timmy.png", "Timmah!"],
     "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
     "sad": ["Sad", "sad.ogg", "buzz_lightyear.png", "Sad..."],
-    "panda": ["Sad Panda", null, "sad_panda.png", null],
+    "panda": ["Sad Panda", "sad_panda.ogg", "sad_panda.png", null],
     "sheeeit": ["Sheeeit", "sheeeit.ogg", "clay_davis.png", null],
     "ladiesandgents": ["Steve Ballmer", "steve_ballmer-ladies_and_gentleman.ogg", "steve_ballmer.png", null],
     "tardis": ["Tardis", "tardis.ogg", "tardis.png", "wooOOooww wooOOoow wooOOoow" ],
