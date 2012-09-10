@@ -10,14 +10,15 @@
 }
 
 #soundcampContainer {
-    width: 132px;
-    margin-left: -78px;
+    width: 294px;
+    margin-left: -156px;
 }
 
 .tooltip {
     position: relative;
     cursor: pointer;
     display: inline-block;
+    z-index: 999;
 }
 
 .tooltip-inner {

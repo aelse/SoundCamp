@@ -147,10 +147,18 @@ function initControls() {
     $('<img>').attr('src',
     chrome.extension.getURL('images/music.png')).attr('id', 'soundcamp_button').attr('width', '16').attr('height', '15').appendTo('#soundcamp_sounds');
 
+    var table = $('<table>').attr('id', 'soundcampTable').appendTo('#soundcampContainer');
+    table.append('<tbody>');
+    var row;
     var sound;
+    var i = 0;
     for (sound in sounds) {
-        $('#soundcampContainer').append('<a class="sound" data-value="'+
-            sound +'">' + (sounds[sound])[0]);
+        if (i == 0) {
+            row = $('#soundcampTable > tbody:last').append('<tr>');
+        }
+        i = (i + 1) % 3;
+        row.append('<td><a class="sound" data-value="'+
+            sound +'">' + (sounds[sound])[0] + '</td>');
     }
 
     $(document).click(function (e) {
