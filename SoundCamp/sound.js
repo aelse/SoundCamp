@@ -170,7 +170,7 @@ function initControls() {
         }
     });
 
-    $('#soundcampContainer').children('.sound').click(function() {
+    $('#soundcampContainer').find('.sound').click(function() {
         var sound = this.getAttribute('data-value');
         tellPlaySound(sound);
     });
