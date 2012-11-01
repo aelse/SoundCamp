@@ -14,14 +14,14 @@
     margin-left: -156px;
 }
 
-.tooltip {
+.sctooltip {
     position: relative;
     cursor: pointer;
     display: inline-block;
     z-index: 999;
 }
 
-.tooltip-inner {
+.sctooltip-inner {
     display: none;
     cursor: default;
     position: absolute;
@@ -33,7 +33,7 @@
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
 }
 
-.tooltip-inner:before, .tooltip-inner:after {
+.sctooltip-inner:before, .sctooltip-inner:after {
     content: "";
     position: absolute;
     z-index: 1000;
@@ -46,16 +46,16 @@
     border-bottom: 0;
 }
 
-.tooltip-inner:before {
+.sctooltip-inner:before {
     border-top-color: #ccc;
     bottom: -14px;
 }
 
-.tooltip-inner > .sound {
+.sctooltip-inner > .sound {
     cursor: pointer;
 }
 
-.tooltip-inner > a {
+.sctooltip-inner > a {
     display: block;
 }
 

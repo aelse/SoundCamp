@@ -142,8 +142,8 @@ function scanAllMessages() {
 }
 
 function initControls() {
-    $('<div>').attr('id', 'soundcamp_sounds').attr('class', 'tooltip').appendTo('#chat_controls');
-    $('<span>').attr('id', 'soundcampContainer').attr('class', 'tooltip-inner').appendTo('#soundcamp_sounds');
+    $('<div>').attr('id', 'soundcamp_sounds').attr('class', 'sctooltip').appendTo('#chat_controls');
+    $('<span>').attr('id', 'soundcampContainer').attr('class', 'sctooltip-inner').appendTo('#soundcamp_sounds');
     $('<img>').attr('src',
     chrome.extension.getURL('images/music.png')).attr('id', 'soundcamp_button').attr('width', '16').attr('height', '15').appendTo('#soundcamp_sounds');
 
