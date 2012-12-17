@@ -31,6 +31,7 @@ var sounds = {
     "letsgo": ["Let's go", "idiotmbl.ogg", null, null],
     "livinalie": ["Livin' a lie", "timmy_livinalie.ogg", "timmy.png", "Timmah!"],
     "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
+    "oyster": ["Blue Oyster", "blue_oyster_bar.ogg", "the_blue_oyster.jpg", null],
     "sad": ["Sad", "sad.ogg", "buzz_lightyear.png", "Sad..."],
     "panda": ["Sad Panda", "sad_panda.ogg", "sad_panda.png", null],
     "sheeeit": ["Sheeeit", "sheeeit.ogg", "clay_davis.png", null],
