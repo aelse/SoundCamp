@@ -5,7 +5,7 @@ var sounds = {
     "boo": ["ಠ_ಠ", "boohiss.ogg", null, null],
     "alive": ["Alive", "alive.ogg", null, "It's alive!"],
     "alrighty": ["Alrighty then", "alrighty_then.ogg", null, null],
-    "america": ["I am sorry... I thought this was America!!?!", "ThoughtThisWasAmerica.ogg", null, null],
+    "america": ["America?", "ThoughtThisWasAmerica.ogg", null, "I am sorry... I thought this was America!!?!"],
     "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
     "oyster": ["Blue Oyster", "blue_oyster_bar.ogg", "the_blue_oyster.jpg", null],
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
