@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SoundCamp",
-  "version": "1.33",
+  "version": "1.32",
   "homepage_url": "http://aelse.github.com/SoundCamp/",
   "description": "Custom sounds for campfire.",
   "icons": {
@@ -60,8 +60,9 @@
     "images/timmy.png",
     "images/verbal_morality.png",
 
+    "sounds/1-2-5.ogg",
     "sounds/33245__ljudman__grenade.ogg",
-    "sounds/aint_nobody_got_time.ogg"
+    "sounds/aint_nobody_got_time.ogg",
     "sounds/alive.ogg",
     "sounds/alrighty_then.ogg",
     "sounds/aod-boomstick.ogg",
@@ -77,6 +78,7 @@
     "sounds/chuck_norris-youre_right.ogg",
     "sounds/crazy_goat.ogg",
     "sounds/dalek-exterminate.ogg",
+    "sounds/DontForgetToBringATowl.ogg",
     "sounds/dr_cox-youre_wrong.ogg",
     "sounds/espresso.ogg",
     "sounds/final.ogg",

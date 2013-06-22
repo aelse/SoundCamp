@@ -1,6 +1,7 @@
 // Sorted alphabetically by label (first element of array)
 var sounds = {
     // key : [ label, soundfile, image, text ]
+    "125": ["1, 2, 5!", "1-2-5.ogg", null, null],
     "boo": ["ಠ_ಠ", "boohiss.ogg", null, null],
     "alive": ["Alive", "alive.ogg", null, "It's alive!"],
     "alrighty": ["Alrighty then", "alrighty_then.ogg", null, null],
@@ -9,6 +10,7 @@ var sounds = {
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
     "breakitdown": ["Break it down", "breakitdown.ogg", "McHammer.gif", null],
     "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],
+    "towel": ["Dont Forget", "DontForgetToBringATowl.ogg", null, null],
     "bug": ["Bug found", "we_have_a_bug.ogg", "bug.png", "We have a bug"],
     "cash": ["Cash", "gimmiecash.ogg", "GimmeDaCash.gif", null],
     "catchaboat": ["Catch a boat", "ricky-catch_a_boat.ogg", "ricky.png", null],
