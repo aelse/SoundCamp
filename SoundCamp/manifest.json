@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SoundCamp",
-  "version": "1.32",
+  "version": "1.34",
   "homepage_url": "http://aelse.github.com/SoundCamp/",
   "description": "Custom sounds for campfire.",
   "icons": {
@@ -90,14 +90,17 @@
     "sounds/hypnotoad.ogg",
     "sounds/idiotmbl.ogg",
     "sounds/jesus_christ.ogg",
+    "sounds/Jackpot.ogg",
     "sounds/larry_david-no_i_dont_think_so.ogg",
     "sounds/leeroy_jenkins.ogg",
     "sounds/llgrump.ogg",
+    "sounds/NeedAssistance.ogg",
     "sounds/nicehat.ogg",
     "sounds/no_cat.ogg",
     "sounds/ricky-catch_a_boat.ogg",
     "sounds/sad.ogg",
     "sounds/sad_panda.ogg",
+    "sounds/ScrewYouGuys.ogg",
     "sounds/sheeeit.ogg",
     "sounds/steve_ballmer-developers.ogg",
     "sounds/steve_ballmer-ladies_and_gentleman.ogg",
@@ -105,8 +108,10 @@
     "sounds/timmy_hoaah.ogg",
     "sounds/timmy_livinalie.ogg",
     "sounds/timmy.ogg",
+    "sounds/ThoughtThisWasAmerica.ogg",
     "sounds/to_inf.ogg",
     "sounds/verbal_morality.ogg",
-    "sounds/we_have_a_bug.ogg"
+    "sounds/we_have_a_bug.ogg",
+    "sounds/YouAreTheBest.ogg"
   ]
 }
