@@ -15,6 +15,8 @@ var sounds = {
     "bug": ["Bug found", "we_have_a_bug.ogg", "bug.png", "We have a bug"],
     "cash": ["Cash", "gimmiecash.ogg", "GimmeDaCash.gif", null],
     "catchaboat": ["Catch a boat", "ricky-catch_a_boat.ogg", "ricky.png", null],
+    "coolstory": ["Cool Story", "CoolStoryHansel.ogg", null, "Cool story Hansel..."],
+    "crymeariver": ["Cry Me A River", "CryMeARiver.ogg", null, "Cry me a river..."],
     "espresso": ["Coffee, anyone?", "espresso.ogg", "espresso.png", "Anyone for coffee?"],
     "communicate": ["Communicate", "chl-communicate.ogg", null, "What we have here..."],
     "developers": ["Developers...", "steve_ballmer-developers.ogg", "steve_ballmer.png", null],
@@ -37,6 +39,7 @@ var sounds = {
     "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
     "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
     "leeroy": ["Leeroy", "leeroy_jenkins.ogg", null, "At least I have chicken."],
+    "letsgetready": ["Let's Get Ready", "LetsGetReadyToRumble.ogg", null, "Let's get ready to rumble!"],
     "letsgo": ["Let's go", "idiotmbl.ogg", null, null],
     "livinalie": ["Livin' a lie", "timmy_livinalie.ogg", "timmy.png", "Timmah!"],
     "needassiatnce": ["Need assistance?", "NeedAssistance.ogg", null, null],
@@ -48,14 +51,22 @@ var sounds = {
     "panda": ["Sad Panda", "sad_panda.ogg", "sad_panda.png", null],
     "chosepoorly": ["Poor Choice", "HeChosePoorly.ogg", null, null],
     "sheeeit": ["Sheeeit", "sheeeit.ogg", "clay_davis.png", null],
+    "snozberries": ["Snozberries", "Snozberries.ogg", null, "This snozberries taste like realy snozberries"],
+    "SorryIAmLate": ["Sorry I'm Late", "SorryIAmLate.ogg", null, "Sorry I am late!"],
     "ladiesandgents": ["Steve Ballmer", "steve_ballmer-ladies_and_gentleman.ogg", "steve_ballmer.png", null],
     "tardis": ["Tardis", "tardis.ogg", "tardis.png", "wooOOooww wooOOoow wooOOoow" ],
     "final": ["The Final Countdown", "final.ogg", null, "The Final Countdown" ],
+    "threwitontheground": ["Threw it on the ground!", "ThrewItOnTheGround.ogg", null, "I threw it on the ground!" ],
     "timmy": ["Timmy!", "timmy.ogg", "timmy.png", null],
+	"verbal": ["Verbal morality", "verbal_morality.ogg", "verbal_morality.png", null],
+    "what": ["What?", "WhatMinion.ogg", "what.gif", null],
+    "yeah": ["Yeah, Yeah!", "YeahYeahYeah.ogg", null, "Yeah, Yeah, Yeah, Yeah, Yeah"],
+    "youawizard": ["You're a wizard", "WizardHarry.ogg", null, "You are a wizard Harry.."],
+    "yourcrazy": ["You're crazy", "YourCrazy.ogg", null, "I like you... but your crazy..."],
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
-    "verbal": ["Verbal morality", "verbal_morality.ogg", "verbal_morality.png", null],
     "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
-    "thebest": ["You're the best", "YouAreTheBest.ogg", null, null],
+    "thebest": ["You're the best", "YouAreTheBest.ogg", null, null]
+	
 }
 
 var audio = null;

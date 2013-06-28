@@ -58,6 +58,7 @@
     "images/tardis.png",
     "images/the_blue_oyster.jpg",
     "images/timmy.png",
+    "images/what.gif",
     "images/verbal_morality.png",
 
     "sounds/1-2-5.ogg",
@@ -76,6 +77,8 @@
     "sounds/breakitdown.ogg",
     "sounds/chl-communicate.ogg",
     "sounds/chuck_norris-youre_right.ogg",
+    "sounds/CoolStoryHansel.ogg",
+    "sounds/CryMeARiver.ogg",
     "sounds/crazy_goat.ogg",
     "sounds/dalek-exterminate.ogg",
     "sounds/DontForgetToBringATowl.ogg",
@@ -93,6 +96,7 @@
     "sounds/Jackpot.ogg",
     "sounds/larry_david-no_i_dont_think_so.ogg",
     "sounds/leeroy_jenkins.ogg",
+    "sounds/LetsGetReadyToRumble.ogg",
     "sounds/llgrump.ogg",
     "sounds/NeedAssistance.ogg",
     "sounds/nicehat.ogg",
@@ -102,6 +106,7 @@
     "sounds/sad_panda.ogg",
     "sounds/ScrewYouGuys.ogg",
     "sounds/sheeeit.ogg",
+    "sounds/Snozberries.ogg",
     "sounds/steve_ballmer-developers.ogg",
     "sounds/steve_ballmer-ladies_and_gentleman.ogg",
     "sounds/tardis.ogg",
@@ -109,9 +114,14 @@
     "sounds/timmy_livinalie.ogg",
     "sounds/timmy.ogg",
     "sounds/ThoughtThisWasAmerica.ogg",
+    "sounds/ThrewItOnTheGround.ogg",
     "sounds/to_inf.ogg",
     "sounds/verbal_morality.ogg",
     "sounds/we_have_a_bug.ogg",
-    "sounds/YouAreTheBest.ogg"
+    "sounds/WhatMinion.ogg",
+    "sounds/WizardHarry.ogg",
+    "sounds/YouAreTheBest.ogg",
+    "sounds/YeahYeahYeah.ogg",
+    "sounds/YourCrazy.ogg"
   ]
 }
