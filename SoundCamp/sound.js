@@ -2,12 +2,15 @@
 var sounds = {
     // key : [ label, soundfile, image, text ]
     "125": ["1, 2, 5!", "1-2-5.ogg", null, null],
+    "goodmorningvietnam": ["Gooood Morning Vietnaaamm!", "good_morning_vietnam.ogg", "good_morning_vietnam.jpg", "Good Morning Vietnam!"],
     "boo": ["ಠ_ಠ", "boohiss.ogg", null, null],
+    "jacksparrow": ["Jack Sparrow", "captain_jack_sparrow.ogg", "captain_jack_sparrow.jpg", "Captain Jack Sparrow!"],
     "alive": ["Alive", "alive.ogg", null, "It's alive!"],
     "alrighty": ["Alrighty then", "alrighty_then.ogg", null, null],
     "america": ["America?", "ThoughtThisWasAmerica.ogg", null, "I am sorry... I thought this was America!!?!"],
     "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
     "oyster": ["Blue Oyster", "blue_oyster_bar.ogg", "the_blue_oyster.jpg", null],
+    "likeaboss": ["Like A Boss", "like_a_boss.ogg", "like_a_boss.gif", null],
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
     "breakitdown": ["Break it down", "breakitdown.ogg", "McHammer.gif", null],
     "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SoundCamp",
-  "version": "1.35",
+  "version": "1.34",
   "homepage_url": "http://aelse.github.com/SoundCamp/",
   "description": "Custom sounds for campfire.",
   "icons": {
@@ -24,7 +24,9 @@
     "sound.js",
 
     "images/music.png",
-
+    "images/like_a_boss.gif",
+    "images/captain_jack_sparrow.jpg",
+    "images/good_morning_vietnam.jpg",
     "images/arnie.png",
     "images/bender_kill.png",
     "images/boomstick.png",
@@ -61,6 +63,9 @@
     "images/what.gif",
     "images/verbal_morality.png",
 
+    "sounds/like_a_boss.ogg",
+    "sounds/captain_jack_sparrow.ogg",
+    "sounds/good_morning_vietnam.ogg",
     "sounds/1-2-5.ogg",
     "sounds/33245__ljudman__grenade.ogg",
     "sounds/aint_nobody_got_time.ogg",
@@ -107,7 +112,6 @@
     "sounds/ScrewYouGuys.ogg",
     "sounds/sheeeit.ogg",
     "sounds/Snozberries.ogg",
-    "sounds/SorryIAmLate.ogg",
     "sounds/steve_ballmer-developers.ogg",
     "sounds/steve_ballmer-ladies_and_gentleman.ogg",
     "sounds/tardis.ogg",
