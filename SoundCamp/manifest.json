@@ -30,6 +30,7 @@
     "images/boomstick.png",
     "images/bug.png",
     "images/buzz_lightyear.png",
+    "images/charlie-sheen-crazy-eyes.png",
     "images/chuck_norris.png",
     "images/clay_davis.png",
     "images/crazy_goat.png",
@@ -71,6 +72,7 @@
     "sounds/aod-jack.ogg",
     "sounds/arnie_you_lack_discipline.ogg",
     "sounds/bender_kill_humans.ogg",
+    "sounds/bi_winning.ogg",
     "sounds/blue_oyster_bar.ogg",
     "sounds/boohiss.ogg",
     "sounds/breakitdown.ogg",
@@ -97,6 +99,7 @@
     "sounds/NeedAssistance.ogg",
     "sounds/nicehat.ogg",
     "sounds/no_cat.ogg",
+    "sounds/one_speed.ogg",
     "sounds/ricky-catch_a_boat.ogg",
     "sounds/sad.ogg",
     "sounds/sad_panda.ogg",
@@ -112,6 +115,7 @@
     "sounds/to_inf.ogg",
     "sounds/verbal_morality.ogg",
     "sounds/we_have_a_bug.ogg",
+    "sounds/winning.ogg",
     "sounds/YouAreTheBest.ogg"
   ]
 }

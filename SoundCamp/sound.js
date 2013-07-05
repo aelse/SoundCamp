@@ -8,6 +8,7 @@ var sounds = {
     "america": ["America?", "ThoughtThisWasAmerica.ogg", null, "I am sorry... I thought this was America!!?!"],
     "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
     "oyster": ["Blue Oyster", "blue_oyster_bar.ogg", "the_blue_oyster.jpg", null],
+    "bi_winning": ["Bi Winning", "bi_winning.ogg", "charlie-sheen-crazy-eyes.png", "Now What?"],
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
     "breakitdown": ["Break it down", "breakitdown.ogg", "McHammer.gif", null],
     "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],
@@ -43,6 +44,7 @@ var sounds = {
     "nicehat": ["Nice hat", "nicehat.ogg", "NiceHat.gif", null],
     "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
     "notime": ["No time for that", "aint_nobody_got_time.ogg", null, null],
+    "onespeed": ["One speed...Go!", "one_speed.ogg", "charlie-sheen-crazy-eyes.png", "Because, that's how I roll"],
     "sad": ["Sad", "sad.ogg", "buzz_lightyear.png", "Sad..."],
     "screwyouguys": ["Screw you guys", "ScrewYouGuys.ogg", null, null],
     "panda": ["Sad Panda", "sad_panda.ogg", "sad_panda.png", null],
@@ -55,6 +57,7 @@ var sounds = {
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
     "verbal": ["Verbal morality", "verbal_morality.ogg", "verbal_morality.png", null],
     "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
+    "winning": ["Winning", "winning.ogg", "charlie-sheen-crazy-eyes.png", null],
     "thebest": ["You're the best", "YouAreTheBest.ogg", null, null],
 }
 
