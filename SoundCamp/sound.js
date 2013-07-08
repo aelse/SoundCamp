@@ -55,7 +55,7 @@ var sounds = {
     "chosepoorly": ["Poor Choice", "HeChosePoorly.ogg", null, null],
     "sheeeit": ["Sheeeit", "sheeeit.ogg", "clay_davis.png", null],
     "snozberries": ["Snozberries", "Snozberries.ogg", null, "This snozberries taste like realy snozberries"],
-    "SorryIAmLate": ["Sorry I'm Late", "SorryIAmLate.ogg", null, "Sorry I am late!"],
+    "sorryiamlate": ["Sorry I'm Late", "SorryIAmLate.ogg", null, "Sorry I am late!"],
     "ladiesandgents": ["Steve Ballmer", "steve_ballmer-ladies_and_gentleman.ogg", "steve_ballmer.png", null],
     "tardis": ["Tardis", "tardis.ogg", "tardis.png", "wooOOooww wooOOoow wooOOoow" ],
     "final": ["The Final Countdown", "final.ogg", null, "The Final Countdown" ],
@@ -64,13 +64,16 @@ var sounds = {
 	"verbal": ["Verbal morality", "verbal_morality.ogg", "verbal_morality.png", null],
     "what": ["What?", "WhatMinion.ogg", "what.gif", null],
     "yeah": ["Yeah, Yeah!", "YeahYeahYeah.ogg", null, "Yeah, Yeah, Yeah, Yeah, Yeah"],
-    "youawizard": ["You're a wizard", "WizardHarry.ogg", null, "You are a wizard Harry.."],
-    "yourcrazy": ["You're crazy", "YourCrazy.ogg", null, "I like you... but your crazy..."],
+    "youawizard": ["You're a wizard", "WizardHarry.ogg", null, "You're a wizard, Harry.."],
+    "yourcrazy": ["You're crazy", "YourCrazy.ogg", null, "I like you... but you're crazy..."],
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
     "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
-    "thebest": ["You're the best", "YouAreTheBest.ogg", null, null]
-	
+    "thebest": ["You're the best", "YouAreTheBest.ogg", null, "You're the best!"]
 }
+
+var soundKeys = Object.keys(sounds);
+var soundKeysLength = soundKeys.length;
+soundKeys.sort();
 
 var audio = null;
 var re = /:soundcamp \w+/;
@@ -105,8 +108,7 @@ function addChatSoundHTML(node, sound) {
         html = '<span class="scMsg">'+ s[0] +'</span>';
     }
 
-    var snd_img = $('<img>').attr('alt', "Sound").attr('class',
-    'scSndIcon').attr('src', '/images/sound.png');
+    var snd_img = $('<img>').attr('alt', "Sound").attr('class', 'scSndIcon').attr('src', '/images/sound.png');
     $(snd_img).click(function() { playSound(sound); });
 
     node.html('');
@@ -171,25 +173,30 @@ function scanAllMessages() {
 }
 
 function initControls() {
-    $('<div>').attr('id', 'soundcamp_sounds').attr('class', 'sctooltip').appendTo('#chat_controls');
-    $('<span>').attr('id', 'soundcampContainer').attr('class', 'sctooltip-inner').appendTo('#soundcamp_sounds');
-    $('<img>').attr('src',
-    chrome.extension.getURL('images/music.png')).attr('id', 'soundcamp_button').attr('width', '16').attr('height', '15').appendTo('#soundcamp_sounds');
-
-    var table = $('<table>').attr('id', 'soundcampTable').appendTo('#soundcampContainer');
+    $('<div>').attr('id', 'soundCamp-wrapper').attr('class', 'sctooltip').appendTo('#chat_controls');
+    $('<div>').attr('id', 'soundcampContainer').attr('class', 'sctooltip-outer').appendTo('#soundCamp-wrapper');	
+	var soundCampIcon = $('<img>').attr('src', chrome.extension.getURL('images/music.png')).attr('id', 'soundcamp_button').attr('width', '16').attr('height', '15').attr('title', 'Play SoundCamp Sound..').appendTo('#soundCamp-wrapper');
+	
+	var innerCont = $('<div>').attr('class', 'sctooltip-inner').appendTo('#soundcampContainer');
+    
+    var table = $('<table>').attr('id', 'soundcampTable').appendTo(innerCont);
     table.append('<tbody>');
     var row;
     var sound;
-    var i = 0;
-    for (sound in sounds) {
-        if (i == 0) {
+    var j = 0;
+	
+	for (var i = 0; i < soundKeysLength; i++)
+	{
+		var currentSoundKey = soundKeys[i];
+		sound = sounds[currentSoundKey];    
+		
+		if (j == 0) {
             row = $('#soundcampTable > tbody:last').append('<tr>');
         }
-        i = (i + 1) % 3;
-        row.append('<td><a class="sound" data-value="'+
-            sound +'">' + (sounds[sound])[0] + '</td>');
-    }
-
+        j = (j + 1) % 3;
+        row.append('<td><a class="sound" data-value="'+ currentSoundKey +'">' + sound[0] + '</td>');
+	}
+	
     $(document).click(function (e) {
         if (e.target.id !== 'soundcamp_button' &&
             $('#soundcamp_button').find(e.target).length === 0) {
@@ -203,6 +210,8 @@ function initControls() {
         var sound = this.getAttribute('data-value');
         tellPlaySound(sound);
     });
+	
+	$('#soundcampContainer').css('margin-left', '-380px'); // future: auto-calculate based on width of the popup, etc.
 }
 
 function initListener() {
