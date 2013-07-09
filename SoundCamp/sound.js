@@ -68,7 +68,8 @@ var sounds = {
     "yourcrazy": ["You're crazy", "YourCrazy.ogg", null, "I like you... but you're crazy..."],
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
     "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
-    "thebest": ["You're the best", "YouAreTheBest.ogg", null, "You're the best!"]
+    "thebest": ["You're the best", "YouAreTheBest.ogg", null, "You're the best!"],
+    "orangeMocha": ["Orange Mocha!", "OrangeMochaFrappuccino.ogg", "OrangeMochaFrappacino.gif", null]
 }
 
 var soundKeys = Object.keys(sounds);
