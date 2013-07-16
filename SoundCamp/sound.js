@@ -7,6 +7,7 @@ var sounds = {
     "alrighty": ["Alrighty then", "alrighty_then.ogg", null, null],
     "america": ["America?", "ThoughtThisWasAmerica.ogg", null, "I am sorry... I thought this was America!!?!"],
     "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
+    "bettyWhite": ["Betty White", "BettyWhite.ogg", "betty-white-snickers-ad.jpg", null],
     "oyster": ["Blue Oyster", "blue_oyster_bar.ogg", "the_blue_oyster.jpg", null],
     "byebyebye": ["Bye Bye Bye", "byebyebye.ogg", "byebyebye.gif", "Bye Bye Bye!"],
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
