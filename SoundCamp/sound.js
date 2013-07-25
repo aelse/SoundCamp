@@ -1,6 +1,7 @@
 // Sorted alphabetically by label (first element of array)
 var sounds = {
     // key : [ label, soundfile, image, text ]
+    "dontcallmeshirley": ["Surely you can't be serious", "dont_call_me_shirley.ogg", "dont_call_me_shirley.gif", null],
     "125": ["1, 2, 5!", "1-2-5.ogg", null, null],
     "boo": ["ಠ_ಠ", "boohiss.ogg", null, null],
     "alive": ["Alive", "alive.ogg", null, "It's alive!"],
@@ -77,7 +78,6 @@ var sounds = {
     "yourcrazy": ["You're crazy", "YourCrazy.ogg", null, "I like you... but you're crazy..."],
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
     "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
-	
     "thebest": ["You're the best", "YouAreTheBest.ogg", null, "You're the best!"]
 }
 
