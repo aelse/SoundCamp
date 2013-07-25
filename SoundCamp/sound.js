@@ -2,6 +2,7 @@
 var sounds = {
     // key : [ label, soundfile, image, text ]
     "dontcallmeshirley": ["Surely you can't be serious", "dont_call_me_shirley.ogg", "dont_call_me_shirley.gif", null],
+    "scissorkick": ["Scissor Kick", "scissor-kick.ogg", "scissor-kick.jpg", null],
     "125": ["1, 2, 5!", "1-2-5.ogg", null, null],
     "boo": ["ಠ_ಠ", "boohiss.ogg", null, null],
     "alive": ["Alive", "alive.ogg", null, "It's alive!"],

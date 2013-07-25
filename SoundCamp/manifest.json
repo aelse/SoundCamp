@@ -24,6 +24,7 @@
     "sound.js",
 
     "images/music.png",
+    "images/scissor-kick.jpg",
     "images/dont_call_me_shirley.gif",
     "images/like_a_boss.gif",
     "images/captain_jack_sparrow.jpg",
@@ -72,6 +73,7 @@
     "images/verbal_morality.png",
 
     "sounds/dont_call_me_shirley.ogg",
+    "sounds/scissor-kick.ogg",
     "sounds/like_a_boss.ogg",
     "sounds/captain_jack_sparrow.ogg",
     "sounds/good_morning_vietnam.ogg",
