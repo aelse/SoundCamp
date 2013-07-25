@@ -10,6 +10,7 @@ var sounds = {
     "bettyWhite": ["Betty White", "BettyWhite.ogg", "betty-white-snickers-ad.jpg", null],
     "oyster": ["Blue Oyster", "blue_oyster_bar.ogg", "the_blue_oyster.jpg", null],
     "byebyebye": ["Bye Bye Bye", "byebyebye.ogg", "byebyebye.gif", "Bye Bye Bye!"],
+    "bi_winning": ["Bi Winning", "bi_winning.ogg", "charlie-sheen-crazy-eyes.png", "Now What?"],
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
     "breakitdown": ["Break it down", "breakitdown.ogg", "McHammer.gif", null],
     "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],
@@ -54,6 +55,7 @@ var sounds = {
     "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
     "notime": ["No time for that", "aint_nobody_got_time.ogg", null, null],
     "orangeMocha": ["Orange Mocha!", "OrangeMochaFrappuccino.ogg", "OrangeMochaFrappacino.gif", null],
+    "onespeed": ["One speed...Go!", "one_speed.ogg", "charlie-sheen-crazy-eyes.png", "Because, that's how I roll"],
     "chosepoorly": ["Poor Choice", "HeChosePoorly.ogg", null, null],
     "sad": ["Sad", "sad.ogg", "buzz_lightyear.png", "Sad..."],
     "screwyouguys": ["Screw you guys", "ScrewYouGuys.ogg", null, null],
@@ -69,11 +71,13 @@ var sounds = {
 	"verbal": ["Verbal morality", "verbal_morality.ogg", "verbal_morality.png", null],
     "what": ["What?", "WhatMinion.ogg", "what.gif", null],
     "whatisthis": ["What is this?", "WhatIsThis.ogg", "WhatIsThis.jpg", "What is this?"],
+    "winning": ["Winning", "winning.ogg", "charlie-sheen-crazy-eyes.png", null],
     "yeah": ["Yeah, Yeah!", "YeahYeahYeah.ogg", null, "Yeah, Yeah, Yeah, Yeah, Yeah"],
     "youawizard": ["You're a wizard", "WizardHarry.ogg", null, "You're a wizard, Harry.."],
     "yourcrazy": ["You're crazy", "YourCrazy.ogg", null, "I like you... but you're crazy..."],
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
     "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
+	
     "thebest": ["You're the best", "YouAreTheBest.ogg", null, "You're the best!"]
 }
 
