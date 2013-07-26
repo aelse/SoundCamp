@@ -41,7 +41,7 @@ var sounds = {
     "knowingishalf": ["Knowing is Half", "KnowingIsHalfTheBattle.ogg", "KnowingIsHalfTheBattle.jpg", null],
     "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
-    "trap": ["It's a trap!", null, "star_wars_its_a_trap.png", null],
+    "trap": ["It's a trap!", "trap.ogg", "star_wars_its_a_trap.png", null],
     "jack": ["Jack", "aod-jack.ogg", null, null],
     "jacksparrow": ["Jack Sparrow", "captain_jack_sparrow.ogg", "captain_jack_sparrow.jpg", "Captain Jack Sparrow!"],
     "jackpot": ["Jackpot!", "Jackpot.ogg", null, null],
