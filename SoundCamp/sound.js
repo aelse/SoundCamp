@@ -1,6 +1,9 @@
 // Sorted alphabetically by label (first element of array)
 var sounds = {
     // key : [ label, soundfile, image, text ]
+	"kelly": ["NO, Kelly Clarkson", "kelly_clarkston.ogg", "kelly_clarkston.jpg", null],
+	"starshine": ["Good Morning Starshine", "goodmorning_startshine.ogg", "goodmorning_startshine.jpg", null],
+	"bane": ["Stand on Ceremony", "stand_on_ceremony.ogg", "stand_on_ceremony.jpg", null],
     "dontcallmeshirley": ["Surely you can't be serious", "dont_call_me_shirley.ogg", "dont_call_me_shirley.gif", null],
     "scissorkick": ["Scissor Kick", "scissor-kick.ogg", "scissor-kick.jpg", null],
     "125": ["1, 2, 5!", "1-2-5.ogg", null, null],

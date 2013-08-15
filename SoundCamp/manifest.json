@@ -22,7 +22,9 @@
   ],
   "web_accessible_resources": [
     "sound.js",
-
+    "images/kelly_clarkston.jpg",
+    "images/goodmorning_startshine.jpg",
+    "images/stand_on_ceremony.jpg",
     "images/music.png",
     "images/scissor-kick.jpg",
     "images/dont_call_me_shirley.gif",
@@ -77,6 +79,9 @@
     "images/winteriscoming.jpg",
     "images/verbal_morality.png",
 
+    "sounds/kelly_clarkston.ogg",
+    "sounds/goodmorning_startshine.ogg",
+    "sounds/stand_on_ceremony.ogg",
     "sounds/dont_call_me_shirley.ogg",
     "sounds/scissor-kick.ogg",
     "sounds/like_a_boss.ogg",
