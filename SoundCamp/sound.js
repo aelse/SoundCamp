@@ -61,7 +61,6 @@ var sounds = {
     "likeaboss": ["Like A Boss", "like_a_boss.ogg", "like_a_boss.gif", null],
     "livinalie": ["Livin' a lie", "timmy_livinalie.ogg", "timmy.png", "Timmah!"],
 
-    "needassiatnce": ["Need assistance?", "NeedAssistance.ogg", null, null],
     "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
 	"kelly": ["NO, Kelly Clarkson", "kelly_clarkston.ogg", "kelly_clarkston.jpg", null],
     "notime": ["No time for that", "aint_nobody_got_time.ogg", null, null],
