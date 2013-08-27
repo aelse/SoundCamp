@@ -44,10 +44,8 @@ var sounds = {
 
     "hammertime": ["Hammer time", "hammer_time.ogg", "McHammer.gif", null],
     "holdon": ["Hold on!", "HoldOnToYourButts.ogg", null, null],
-    "hoaah": ["Hoaah", "timmy_hoaah.ogg", "timmy.png", null],
     "humanTorch": ["Human Torch", "HumanTorch.ogg", null, "The Human Torch was denied a bank loan"],
     "hypnotoad": ["Hypnotoad", "hypnotoad.ogg", "hypnotoad.gif", "ALL GLORY TO THE HYPNOTOAD!"],
-    "hailking": ["Hail to the king", "aod-hailking.ogg", "crown.png", null],
 
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
     "notworking": ["It's not working", "ItIsNotWorking.ogg", "ItIsNotWorking.png", null],
@@ -56,7 +54,6 @@ var sounds = {
     "jacksparrow": ["Jack Sparrow", "captain_jack_sparrow.ogg", "captain_jack_sparrow.jpg", "Captain Jack Sparrow!"],
     "jackpot": ["Jackpot!", "Jackpot.ogg", null, null],
 
-    "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
     "knowingishalf": ["Knowing is Half", "KnowingIsHalfTheBattle.ogg", "KnowingIsHalfTheBattle.jpg", null],
 
     "leeroy": ["Leeroy", "leeroy_jenkins.ogg", null, "At least I have chicken."],
