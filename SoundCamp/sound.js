@@ -4,6 +4,7 @@ var sounds = {
     "125": ["1, 2, 5!", "1-2-5.ogg", null, null],
     "alive": ["Alive", "alive.ogg", null, "It's alive!"],
     "alrighty": ["Alrighty then", "alrighty_then.ogg", null, null],
+    "alrightStan": ["Alright Stan", "AlrightStan.ogg", "alrightStan.png", null],
     "america": ["America?", "ThoughtThisWasAmerica.ogg", null, "I am sorry... I thought this was America!!?!"],
     "angrygoat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
 
@@ -12,6 +13,7 @@ var sounds = {
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
     "breakitdown": ["Break it down", "breakitdown.ogg", "McHammer.gif", null],
     "bug": ["Bug found", "we_have_a_bug.ogg", "bug.png", "We have a bug"],
+    "bubblePop": ["Bubble Pop", "BubblePop.ogg", "bubblepop.gif", null],
     "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],
     "byebyebye": ["Bye Bye Bye", "byebyebye.ogg", "byebyebye.gif", "Bye Bye Bye!"],
 
@@ -33,6 +35,7 @@ var sounds = {
 
 	"starshine": ["Good Morning Starshine", "goodmorning_startshine.ogg", "goodmorning_startshine.jpg", null],
     "goteamventure": ["Go Team!", "GoTeamVenture.ogg", "goteamventure.gif", null],
+    "hudson": ["Going in the Hudson", "GoingInTheHudson.ogg", "hudson.jpg", null],
     "guiInterface": ["GUI Interface", "GuiInterface.ogg", "gui-interface.png", null],
     "grenade": ["Grenade", "33245__ljudman__grenade.ogg", "grenade.png", "Fire in the hole!"],
     "goodmorningvietnam": ["Gooood Morning Vietnaaamm!", "good_morning_vietnam.ogg", "good_morning_vietnam.jpg", "Good Morning Vietnam!"],
@@ -47,6 +50,7 @@ var sounds = {
     "hailking": ["Hail to the king", "aod-hailking.ogg", "crown.png", null],
 
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
+    "notworking": ["It's not working", "ItIsNotWorking.ogg", "ItIsNotWorking.png", null],
     "trap": ["It's a trap!", "trap.ogg", "star_wars_its_a_trap.png", null],
 
     "jacksparrow": ["Jack Sparrow", "captain_jack_sparrow.ogg", "captain_jack_sparrow.jpg", "Captain Jack Sparrow!"],
@@ -76,6 +80,7 @@ var sounds = {
     "scissorkick": ["Scissor Kick", "scissor-kick.ogg", "scissor-kick.jpg", null],
     "screwyouguys": ["Screw you guys", "ScrewYouGuys.ogg", null, null],
     "sheeeit": ["Sheeeit", "sheeeit.ogg", "clay_davis.png", null],
+    "simpleQuestion": ["Simple question", "EatTheMoon.ogg", "simplequestion.jpg", "It is a simple question!"],
     "snozberries": ["Snozberries", "Snozberries.ogg", null, "This snozberries taste like realy snozberries"],
     "soLonely": ["So lonely", "SoRonrey.ogg", "im_so_ronery.jpg", null],
     "sorryiamlate": ["Sorry I'm Late", "SorryIAmLate.ogg", null, "Sorry I am late!"],
