@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "SoundCamp",
-  "version": "1.35",
-  "homepage_url": "http://aelse.github.com/SoundCamp/",
-  "description": "Custom sounds for campfire.",
+  "name": "SoundCamp-Awesomer",
+  "version": "1.4",
+  "homepage_url": "http://www.github.com/mikefranz/SoundCamp/",
+  "description": "Custom sounds for campfire. But even more awesome.",
   "icons": {
       "128": "images/sc_logo_128.png",
        "48": "images/sc_logo_48.png"
@@ -79,6 +79,7 @@
     "images/WhatIsThis.jpg",
     "images/winteriscoming.jpg",
     "images/verbal_morality.png",
+	"images/threw-it-on-the-ground.gif",
 
     "sounds/kelly_clarkston.ogg",
     "sounds/AlrightStan.ogg",
@@ -144,7 +145,6 @@
     "sounds/sheeeit.ogg",
     "sounds/SoRonrey.ogg",
     "sounds/SorryIAmLate.ogg",
-    "sounds/Snozberries.ogg",
     "sounds/steve_ballmer-developers.ogg",
     "sounds/steve_ballmer-ladies_and_gentleman.ogg",
     "sounds/timmy_hoaah.ogg",

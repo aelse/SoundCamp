@@ -1,5 +1,13 @@
+#soundcampTable .mini-icon-col {
+	text-align: center;
+}
+
 #soundcampTable td {
 	white-space: nowrap;
+}
+
+#soundcampTable td.mini-icon-col {
+	padding-right: 0px;
 }
 
 #soundCamp-wrapper {
@@ -70,7 +78,9 @@
 }
 
 .scMsg {
-    padding-left: 5px;
+    /*padding-left: 5px;*/
+	display: block;
+	text-align: center;
 }
 
 .scImg {
@@ -86,4 +96,6 @@
 
 .scMsgUnknown {
     opacity: 0.75;
+	color: red;
+	font-weight: bold;
 }

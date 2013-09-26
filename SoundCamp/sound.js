@@ -17,8 +17,6 @@ var sounds = {
     "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],
     "byebyebye": ["Bye Bye Bye", "byebyebye.ogg", "byebyebye.gif", "Bye Bye Bye!"],
 
-    "cash": ["Cash", "gimmiecash.ogg", "GimmeDaCash.gif", null],
-    "catchaboat": ["Catch a boat", "ricky-catch_a_boat.ogg", "ricky.png", null],
     "coolstory": ["Cool Story", "CoolStoryHansel.ogg", null, "Cool story Hansel..."],
     "communicate": ["Communicate", "chl-communicate.ogg", null, "What we have here..."],
     "espresso": ["Coffee, anyone?", "espresso.ogg", "espresso.png", "Anyone for coffee?"],
@@ -32,15 +30,14 @@ var sounds = {
     "exterminate": ["Exterminate!", "dalek-exterminate.ogg", "dalek.png", "Exterminate!"],
 
     "facepalm": ["Facepalm", null, "facepalm.png", "..."],
-
-	"starshine": ["Good Morning Starshine", "goodmorning_startshine.ogg", "goodmorning_startshine.jpg", null],
+	
     "goteamventure": ["Go Team!", "GoTeamVenture.ogg", "goteamventure.gif", null],
-    "hudson": ["Going in the Hudson", "GoingInTheHudson.ogg", "hudson.jpg", null],
-    "guiInterface": ["GUI Interface", "GuiInterface.ogg", "gui-interface.png", null],
-    "grenade": ["Grenade", "33245__ljudman__grenade.ogg", "grenade.png", "Fire in the hole!"],
+    "hudson": ["Going in the Hudson", "GoingInTheHudson.ogg", "hudson.jpg", null],        
+	"starshine": ["Good Morning Starshine", "goodmorning_startshine.ogg", "goodmorning_startshine.jpg", null],
     "goodmorningvietnam": ["Gooood Morning Vietnaaamm!", "good_morning_vietnam.ogg", "good_morning_vietnam.jpg", "Good Morning Vietnam!"],
     "groovy": ["Groovy", "aod-groovy.ogg", null, null],
     "grumpy": ["Grumpy?", "llgrump.ogg", null, null],
+	"guiInterface": ["GUI Interface", "GuiInterface.ogg", "gui-interface.png", null],
 
     "hammertime": ["Hammer time", "hammer_time.ogg", "McHammer.gif", null],
     "holdon": ["Hold on!", "HoldOnToYourButts.ogg", null, null],
@@ -48,7 +45,7 @@ var sounds = {
     "hypnotoad": ["Hypnotoad", "hypnotoad.ogg", "hypnotoad.gif", "ALL GLORY TO THE HYPNOTOAD!"],
 
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
-    "notworking": ["It's not working", "ItIsNotWorking.ogg", "ItIsNotWorking.png", null],
+    "notworking": ["It's Not Working!", "ItIsNotWorking.ogg", "ItIsNotWorking.png", null],
     "trap": ["It's a trap!", "trap.ogg", "star_wars_its_a_trap.png", null],
 
     "jacksparrow": ["Jack Sparrow", "captain_jack_sparrow.ogg", "captain_jack_sparrow.jpg", "Captain Jack Sparrow!"],
@@ -57,8 +54,7 @@ var sounds = {
     "knowingishalf": ["Knowing is Half", "KnowingIsHalfTheBattle.ogg", "KnowingIsHalfTheBattle.jpg", null],
 
     "leeroy": ["Leeroy", "leeroy_jenkins.ogg", null, "At least I have chicken."],
-    "letsgetready": ["Let's Get Ready", "LetsGetReadyToRumble.ogg", null, "Let's get ready to rumble!"],
-    "letsgo": ["Let's go", "idiotmbl.ogg", null, null],
+    "letsgetready": ["Let's Get Ready", "LetsGetReadyToRumble.ogg", null, "Let's get ready to rumble!"],    
     "likeaboss": ["Like A Boss", "like_a_boss.ogg", "like_a_boss.gif", null],
     "livinalie": ["Livin' a lie", "timmy_livinalie.ogg", "timmy.png", "Timmah!"],
 
@@ -78,7 +74,6 @@ var sounds = {
     "screwyouguys": ["Screw you guys", "ScrewYouGuys.ogg", null, null],
     "sheeeit": ["Sheeeit", "sheeeit.ogg", "clay_davis.png", null],
     "simpleQuestion": ["Simple question", "EatTheMoon.ogg", "simplequestion.jpg", "It is a simple question!"],
-    "snozberries": ["Snozberries", "Snozberries.ogg", null, "This snozberries taste like realy snozberries"],
     "soLonely": ["So lonely", "SoRonrey.ogg", "im_so_ronery.jpg", null],
     "sorryiamlate": ["Sorry I'm Late", "SorryIAmLate.ogg", null, "Sorry I am late!"],
 	"bane": ["Stand on Ceremony", "stand_on_ceremony.ogg", "stand_on_ceremony.jpg", null],
@@ -87,8 +82,9 @@ var sounds = {
 
     "teamamerica": ["Team America", "AmericaClean.ogg", "teamamerica.jpg", null],
     "final": ["The Final Countdown", "final.ogg", null, "The Final Countdown" ],
-    "threwitontheground": ["Threw it on the ground!", "ThrewItOnTheGround.ogg", null, "I threw it on the ground!" ],
+    "threwitontheground": ["Threw it on the ground!", "ThrewItOnTheGround.ogg", "threw-it-on-the-ground.gif", "My dad's not a phone! DUH!" ],
     "timmy": ["Timmy!", "timmy.ogg", "timmy.png", null],
+	"letsgo": ["To the idiotmobile!", "idiotmbl.ogg", null, null],
 
 	"verbal": ["Verbal morality", "verbal_morality.ogg", "verbal_morality.png", null],
 	
@@ -124,8 +120,7 @@ function tellPlaySound(sound) {
 function addChatSoundHTML(node, sound) {
     var s = sounds[sound];
     if (!s) {
-        node.html('<span class="scMsgUnknown">Unknown sound "'+
-            sound +'".</span>');
+        node.html('<span class="scMsgUnknown">Unknown sound "'+ sound +'".</span>');
         return;
     }
 
@@ -133,13 +128,13 @@ function addChatSoundHTML(node, sound) {
     if (s[2]) {
         html += '<span class="scMsg"><img class="scImg" src="'+
             chrome.extension.getURL("images/" + s[2]) +
-            '"></span>';
+            '"></span><br />';
     }
     if (s[3]) {
-        html += '<span class="scMsg">'+ s[3] +'</span>';
+        html += '<span class="scMsg" style="padding-left: 16px; font-weight: bold; font-size: 1.1em;">'+ s[3] +'</span>';
     }
     if (html === '') {
-        html = '<span class="scMsg">'+ s[0] +'</span>';
+        html += '<span class="scMsg" style="padding-left: 16px; font-weight: bold; font-size: 1.1em;">'+ s[0] +'</span>';
     }
 
     var snd_img = $('<img>').attr('alt', "Sound").attr('class', 'scSndIcon').attr('src', '/images/sound.png');
@@ -234,7 +229,23 @@ function initControls() {
             row = $('#soundcampTable > tbody:last').append('<tr>');
         }
         j = (j + 1) % 3;
-        row.append('<td><a class="sound" data-value="'+ currentSoundKey +'">' + sound[0] + '</td>');
+		
+		if (sound[2] != null) {
+			row.append('<td class="mini-icon-col"><img src="' + chrome.extension.getURL("images/" + sound[2]) + '" style="height: 20px;" /></td>');
+		} else {
+			row.append('<td class="mini-icon-col">&nbsp;</td>');
+		}
+		
+		var hyperLink = $('<a class="sound" data-value="' + currentSoundKey + '"></a>').text(sound[0]);
+		
+		if (sound[3] != null) {
+			hyperLink.attr('title', sound[3]);
+		}
+		
+		var newRow = $('<td></td>');
+		newRow.append(hyperLink);
+		
+        row.append(newRow);
 	}
 	
     $(document).click(function (e) {
@@ -251,7 +262,7 @@ function initControls() {
         tellPlaySound(sound);
     });
 	
-	$('#soundcampContainer').css('margin-left', '-380px'); // future: auto-calculate based on width of the popup, etc.
+	$('#soundcampContainer').css('margin-left', '-542px'); // TODO: auto-calculate based on width of the popup, etc. -- or turn into a modal or something.
 }
 
 function initListener() {
