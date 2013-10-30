@@ -7,7 +7,9 @@
 }
 
 #soundcampTable td.mini-icon-col {
-	padding-right: 0px;
+	padding-right: 5px;
+	/*padding-top: 1px;
+	padding-bottom: 2px;*/
 }
 
 #soundCamp-wrapper {
@@ -81,17 +83,23 @@
     /*padding-left: 5px;*/
 	display: block;
 	text-align: center;
+	font-family: Tahoma, sans-serif;
 }
 
 .scImg {
     /*height: 18px;*/
+	max-width: 90%;
+	border: 2px solid black;
 }
 
 .scSndIcon {
     width: 12px;
     height: 12px;
-    opacity: 0.25;
+    opacity: 0.9;
 	cursor: pointer;
+	color: blue;
+	position: absolute;
+	font-size: 17px;
 }
 
 .scMsgUnknown {

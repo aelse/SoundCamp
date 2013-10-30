@@ -5,7 +5,7 @@ var sounds = {
     "alive": ["Alive", "alive.ogg", null, "It's alive!"],
     "alrighty": ["Alrighty then", "alrighty_then.ogg", null, null],
     "alrightStan": ["Alright Stan", "AlrightStan.ogg", "alrightStan.png", null],
-    "america": ["America?", "ThoughtThisWasAmerica.ogg", null, "I am sorry... I thought this was America!!?!"],
+    "america": ["America?", "ThoughtThisWasAmerica.ogg", "im-sorry-i-thought-this-was-america.gif", "I am sorry... I thought this was America!!?!"],
     "angrygoat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
 
     "bettyWhite": ["Betty White", "BettyWhite.ogg", "betty-white-snickers-ad.jpg", null],
@@ -17,8 +17,8 @@ var sounds = {
     "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],
     "byebyebye": ["Bye Bye Bye", "byebyebye.ogg", "byebyebye.gif", "Bye Bye Bye!"],
 
-    "coolstory": ["Cool Story", "CoolStoryHansel.ogg", null, "Cool story Hansel..."],
-    "communicate": ["Communicate", "chl-communicate.ogg", null, "What we have here..."],
+    "coolstory": ["Cool Story", "CoolStoryHansel.ogg", "cool-story-hansel.gif", null],
+    "communicate": ["Communicate", "chl-communicate.ogg", "cool-hand-luke.jpg", "What we have here..."],
     "espresso": ["Coffee, anyone?", "espresso.ogg", "espresso.png", "Anyone for coffee?"],
     "crymeariver": ["Cry Me A River", "CryMeARiver.ogg", null, "Cry me a river..."],
 
@@ -35,13 +35,13 @@ var sounds = {
     "hudson": ["Going in the Hudson", "GoingInTheHudson.ogg", "hudson.jpg", null],        
 	"starshine": ["Good Morning Starshine", "goodmorning_startshine.ogg", "goodmorning_startshine.jpg", null],
     "goodmorningvietnam": ["Gooood Morning Vietnaaamm!", "good_morning_vietnam.ogg", "good_morning_vietnam.jpg", "Good Morning Vietnam!"],
-    "groovy": ["Groovy", "aod-groovy.ogg", null, null],
+    "groovy": ["Groovy", "aod-groovy.ogg", "Groovy-Evil-Dead-Ash.gif", null],
     "grumpy": ["Grumpy?", "llgrump.ogg", null, null],
 	"guiInterface": ["GUI Interface", "GuiInterface.ogg", "gui-interface.png", null],
 
     "hammertime": ["Hammer time", "hammer_time.ogg", "McHammer.gif", null],
     "holdon": ["Hold on!", "HoldOnToYourButts.ogg", null, null],
-    "humanTorch": ["Human Torch", "HumanTorch.ogg", null, "The Human Torch was denied a bank loan"],
+    "humanTorch": ["Human Torch", "HumanTorch.ogg", "anchorman-burrito.gif", "The Human Torch was denied a bank loan"],
     "hypnotoad": ["Hypnotoad", "hypnotoad.ogg", "hypnotoad.gif", "ALL GLORY TO THE HYPNOTOAD!"],
 
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
@@ -49,7 +49,7 @@ var sounds = {
     "trap": ["It's a trap!", "trap.ogg", "star_wars_its_a_trap.png", null],
 
     "jacksparrow": ["Jack Sparrow", "captain_jack_sparrow.ogg", "captain_jack_sparrow.jpg", "Captain Jack Sparrow!"],
-    "jackpot": ["Jackpot!", "Jackpot.ogg", null, null],
+    "jackpot": ["Jackpot!", "Jackpot.ogg", "dear-diary-jackpot.gif", null],
 
     "knowingishalf": ["Knowing is Half", "KnowingIsHalfTheBattle.ogg", "KnowingIsHalfTheBattle.jpg", null],
 
@@ -65,8 +65,8 @@ var sounds = {
     "onespeed": ["One speed...Go!", "one_speed.ogg", "charlie-sheen-crazy-eyes.png", "Because, that's how I roll"],
     "orangeMocha": ["Orange Mocha!", "OrangeMochaFrappuccino.ogg", "OrangeMochaFrappacino.gif", null],
 
-    "pantsParty": ["Pants party", "PantsParty.ogg", null, "You are cordially invited to the pants party!!"],
-    "chosepoorly": ["Poor Choice", "HeChosePoorly.ogg", null, null],
+    "pantsParty": ["Pants party", "PantsParty.ogg", "pants-party.gif", null],
+    "chosepoorly": ["Poor Choice", "HeChosePoorly.ogg", "he-choose-poorly.gif", null],
 
     "sad": ["Sad", "sad.ogg", "buzz_lightyear.png", "Sad..."],
     "panda": ["Sad Panda", "sad_panda.ogg", "sad_panda.png", null],
@@ -81,7 +81,7 @@ var sounds = {
     "dontcallmeshirley": ["Surely you can't be serious", "dont_call_me_shirley.ogg", "dont_call_me_shirley.gif", null],
 
     "teamamerica": ["Team America", "AmericaClean.ogg", "teamamerica.jpg", null],
-    "final": ["The Final Countdown", "final.ogg", null, "The Final Countdown" ],
+    "final": ["The Final Countdown", "final.ogg", "final-countdown.gif", null],
     "threwitontheground": ["Threw it on the ground!", "ThrewItOnTheGround.ogg", "threw-it-on-the-ground.gif", "My dad's not a phone! DUH!" ],
     "timmy": ["Timmy!", "timmy.ogg", "timmy.png", null],
 	"letsgo": ["To the idiotmobile!", "idiotmbl.ogg", null, null],
@@ -94,12 +94,12 @@ var sounds = {
     "winning": ["Winning", "winning.ogg", "charlie-sheen-crazy-eyes.png", null],
     "winter": ["Winter is coming", "WinterIsComing.ogg", "winteriscoming.jpg", null],
 
-    "yeah": ["Yeah, Yeah!", "YeahYeahYeah.ogg", null, "Yeah, Yeah, Yeah, Yeah, Yeah"],
-    "youawizard": ["You're a wizard", "WizardHarry.ogg", null, "You're a wizard, Harry.."],
-    "yourcrazy": ["You're crazy", "YourCrazy.ogg", null, "I like you... but you're crazy..."],
+    "yeah": ["Yeah, Yeah!", "YeahYeahYeah.ogg", "yeah-yeah-yeah.jpg", "Yeah, Yeah, Yeah, Yeah, Yeah"],
+    "youawizard": ["You're a wizard", "WizardHarry.ogg", "wizard-harry.gif", null],
+    "yourcrazy": ["You're crazy", "YourCrazy.ogg", "i-like-you-but-youre-crazy.jpg", null],
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
     "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
-    "thebest": ["You're the best", "YouAreTheBest.ogg", null, "You're the best!"]
+    "thebest": ["You're the best", "YouAreTheBest.ogg", "youre-the-best.jpg", "You're the best... around!"]
 }
 
 var soundKeys = Object.keys(sounds);
@@ -128,7 +128,7 @@ function addChatSoundHTML(node, sound) {
     if (s[2]) {
         html += '<span class="scMsg"><img class="scImg" src="'+
             chrome.extension.getURL("images/" + s[2]) +
-            '"></span><br />';
+            '"></span>';
     }
     if (s[3]) {
         html += '<span class="scMsg" style="padding-left: 16px; font-weight: bold; font-size: 1.1em;">'+ s[3] +'</span>';
@@ -137,7 +137,7 @@ function addChatSoundHTML(node, sound) {
         html += '<span class="scMsg" style="padding-left: 16px; font-weight: bold; font-size: 1.1em;">'+ s[0] +'</span>';
     }
 
-    var snd_img = $('<img>').attr('alt', "Sound").attr('class', 'scSndIcon').attr('src', '/images/sound.png');
+    var snd_img = $('<span>♫</span>').attr('alt', "Sound").attr('class', 'scSndIcon');
     $(snd_img).click(function() { playSound(sound); });
 
     node.html('');
@@ -182,8 +182,13 @@ function processSoundCommand(msgBody, play) {
         var sound = msg.replace(':soundcamp ', '');
         //msgBody.replaceWith(sound);
         addChatSoundHTML(msgBody, sound);
-        if (play && soundEnabled())
+        if (play && soundEnabled()) {	
             playSound(sound);
+	}
+	// scroll to bottom of chat div
+	setTimeout(function() {
+		$('#chats .chat_display:visible').scrollTop($('#chats .chat_display:visible')[0].scrollHeight);
+	}, 200);
     }
 }
 
@@ -242,6 +247,10 @@ function initControls() {
 			hyperLink.attr('title', sound[3]);
 		}
 		
+		if (sound[2] == null) {
+			hyperLink.css('color', '#888');
+		}
+		
 		var newRow = $('<td></td>');
 		newRow.append(hyperLink);
 		
@@ -262,7 +271,7 @@ function initControls() {
         tellPlaySound(sound);
     });
 	
-	$('#soundcampContainer').css('margin-left', '-542px'); // TODO: auto-calculate based on width of the popup, etc. -- or turn into a modal or something.
+	$('#soundcampContainer').css('margin-left', '-591px'); // TODO: auto-calculate based on width of the popup, etc. -- or turn into a modal or something.
 }
 
 function initListener() {

@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SoundCamp-Awesomer",
-  "version": "1.4",
+  "version": "1.5.1",
   "homepage_url": "http://www.github.com/mikefranz/SoundCamp/",
   "description": "Custom sounds for campfire. But even more awesome.",
   "icons": {
@@ -80,6 +80,19 @@
     "images/winteriscoming.jpg",
     "images/verbal_morality.png",
 	"images/threw-it-on-the-ground.gif",
+	"images/Groovy-Evil-Dead-Ash.gif",
+	"images/im-sorry-i-thought-this-was-america.gif",
+	"images/cool-hand-luke.jpg",
+	"images/anchorman-burrito.gif",
+	"images/dear-diary-jackpot.gif",
+	"images/he-choose-poorly.gif",
+	"images/pants-party.gif",
+	"images/cool-story-hansel.gif",
+	"images/wizard-harry.gif",
+	"images/youre-the-best.jpg",
+	"images/i-like-you-but-youre-crazy.jpg",
+	"images/final-countdown.gif",
+	"images/yeah-yeah-yeah.jpg",
 
     "sounds/kelly_clarkston.ogg",
     "sounds/AlrightStan.ogg",
