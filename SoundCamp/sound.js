@@ -2,64 +2,108 @@
 var sounds = {
     // key : [ label, soundfile, image, text ]
     "125": ["1, 2, 5!", "1-2-5.ogg", null, null],
-    "boo": ["ಠ_ಠ", "boohiss.ogg", null, null],
     "alive": ["Alive", "alive.ogg", null, "It's alive!"],
     "alrighty": ["Alrighty then", "alrighty_then.ogg", null, null],
-    "america": ["America?", "ThoughtThisWasAmerica.ogg", null, "I am sorry... I thought this was America!!?!"],
-    "goat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
-    "oyster": ["Blue Oyster", "blue_oyster_bar.ogg", "the_blue_oyster.jpg", null],
+    "alrightStan": ["Alright Stan", "AlrightStan.ogg", "alrightStan.png", null],
+    "america": ["America?", "ThoughtThisWasAmerica.ogg", "im-sorry-i-thought-this-was-america.gif", "I am sorry... I thought this was America!!?!"],
+    "angrygoat": ["Angry goat", "crazy_goat.ogg", "crazy_goat.png", null],
+
+    "bettyWhite": ["Betty White", "BettyWhite.ogg", "betty-white-snickers-ad.jpg", null],
     "bi_winning": ["Bi Winning", "bi_winning.ogg", "charlie-sheen-crazy-eyes.png", "Now What?"],
     "boomstick": ["Boomstick", "aod-boomstick.ogg", "boomstick.png", null],
     "breakitdown": ["Break it down", "breakitdown.ogg", "McHammer.gif", null],
-    "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],
-    "towel": ["Dont Forget", "DontForgetToBringATowl.ogg", null, null],
     "bug": ["Bug found", "we_have_a_bug.ogg", "bug.png", "We have a bug"],
-    "cash": ["Cash", "gimmiecash.ogg", "GimmeDaCash.gif", null],
-    "catchaboat": ["Catch a boat", "ricky-catch_a_boat.ogg", "ricky.png", null],
+    "bubblePop": ["Bubble Pop", "BubblePop.ogg", "bubblepop.gif", null],
+    "deadbug": ["Bug fixed", "good_bug_dead_bug.ogg", "dead_bug.png", "Bug solved!"],
+    "byebyebye": ["Bye Bye Bye", "byebyebye.ogg", "byebyebye.gif", "Bye Bye Bye!"],
+
+    "coolstory": ["Cool Story", "CoolStoryHansel.ogg", "cool-story-hansel.gif", null],
+    "communicate": ["Communicate", "chl-communicate.ogg", "cool-hand-luke.jpg", "What we have here..."],
     "espresso": ["Coffee, anyone?", "espresso.ogg", "espresso.png", "Anyone for coffee?"],
-    "communicate": ["Communicate", "chl-communicate.ogg", null, "What we have here..."],
+    "crymeariver": ["Cry Me A River", "CryMeARiver.ogg", null, "Cry me a river..."],
+
     "developers": ["Developers...", "steve_ballmer-developers.ogg", "steve_ballmer.png", null],
+    "doOrDoNot": ["Do or Do Not", "DoOrDoNot.ogg", "DoOrDoNot.gif", null],
+    "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
+    "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
+
     "exterminate": ["Exterminate!", "dalek-exterminate.ogg", "dalek.png", "Exterminate!"],
+
     "facepalm": ["Facepalm", null, "facepalm.png", "..."],
-    "grenade": ["Grenade", "33245__ljudman__grenade.ogg", "grenade.png", "Fire in the hole!"],
-    "groovy": ["Groovy", "aod-groovy.ogg", null, null],
+	
+    "goteamventure": ["Go Team!", "GoTeamVenture.ogg", "goteamventure.gif", null],
+    "hudson": ["Going in the Hudson", "GoingInTheHudson.ogg", "hudson.jpg", null],        
+	"starshine": ["Good Morning Starshine", "goodmorning_startshine.ogg", "goodmorning_startshine.jpg", null],
+    "goodmorningvietnam": ["Gooood Morning Vietnaaamm!", "good_morning_vietnam.ogg", "good_morning_vietnam.jpg", "Good Morning Vietnam!"],
+    "groovy": ["Groovy", "aod-groovy.ogg", "Groovy-Evil-Dead-Ash.gif", null],
     "grumpy": ["Grumpy?", "llgrump.ogg", null, null],
-    "hailking": ["Hail to the king", "aod-hailking.ogg", "crown.png", null],
+	"guiInterface": ["GUI Interface", "GuiInterface.ogg", "gui-interface.png", null],
+
     "hammertime": ["Hammer time", "hammer_time.ogg", "McHammer.gif", null],
     "holdon": ["Hold on!", "HoldOnToYourButts.ogg", null, null],
-    "hoaah": ["Hoaah", "timmy_hoaah.ogg", "timmy.png", null],
+    "humanTorch": ["Human Torch", "HumanTorch.ogg", "anchorman-burrito.gif", "The Human Torch was denied a bank loan"],
     "hypnotoad": ["Hypnotoad", "hypnotoad.ogg", "hypnotoad.gif", "ALL GLORY TO THE HYPNOTOAD!"],
-    "dontthinkso": ["I don't think so", "larry_david-no_i_dont_think_so.ogg", "larry_david.jpg", null],
+
     "infinity": ["Infinity", "to_inf.ogg", "buzz_lightyear.png", "To infinity! ... or somewhere a bit closer"],
-    "trap": ["It's a trap!", null, "star_wars_its_a_trap.png", null],
-    "jack": ["Jack", "aod-jack.ogg", null, null],
-    "jackpot": ["Jackpot!", "Jackpot.ogg", null, null],
-    "jebus": ["Jebus", "jesus_christ.ogg", "mr_slave.png", null],
-    "killhumans": ["Kill all humans", "bender_kill_humans.ogg", "bender_kill.png", null],
-    "discipline": ["Lack discipline", "arnie_you_lack_discipline.ogg", "arnie.png", null],
+    "notworking": ["It's Not Working!", "ItIsNotWorking.ogg", "ItIsNotWorking.png", null],
+    "trap": ["It's a trap!", "trap.ogg", "star_wars_its_a_trap.png", null],
+
+    "jacksparrow": ["Jack Sparrow", "captain_jack_sparrow.ogg", "captain_jack_sparrow.jpg", "Captain Jack Sparrow!"],
+    "jackpot": ["Jackpot!", "Jackpot.ogg", "dear-diary-jackpot.gif", null],
+
+    "knowingishalf": ["Knowing is Half", "KnowingIsHalfTheBattle.ogg", "KnowingIsHalfTheBattle.jpg", null],
+
     "leeroy": ["Leeroy", "leeroy_jenkins.ogg", null, "At least I have chicken."],
-    "letsgo": ["Let's go", "idiotmbl.ogg", null, null],
+    "letsgetready": ["Let's Get Ready", "LetsGetReadyToRumble.ogg", null, "Let's get ready to rumble!"],    
+    "likeaboss": ["Like A Boss", "like_a_boss.ogg", "like_a_boss.gif", null],
     "livinalie": ["Livin' a lie", "timmy_livinalie.ogg", "timmy.png", "Timmah!"],
-    "needassiatnce": ["Need assistance?", "NeedAssistance.ogg", null, null],
-    "nicehat": ["Nice hat", "nicehat.ogg", "NiceHat.gif", null],
+
     "nonono": ["No no no...", "no_cat.ogg", "no_cat.png", null],
+	"kelly": ["NO, Kelly Clarkson", "kelly_clarkston.ogg", "kelly_clarkston.jpg", null],
     "notime": ["No time for that", "aint_nobody_got_time.ogg", null, null],
+
     "onespeed": ["One speed...Go!", "one_speed.ogg", "charlie-sheen-crazy-eyes.png", "Because, that's how I roll"],
+    "orangeMocha": ["Orange Mocha!", "OrangeMochaFrappuccino.ogg", "OrangeMochaFrappacino.gif", null],
+
+    "pantsParty": ["Pants party", "PantsParty.ogg", "pants-party.gif", null],
+    "chosepoorly": ["Poor Choice", "HeChosePoorly.ogg", "he-choose-poorly.gif", null],
+
     "sad": ["Sad", "sad.ogg", "buzz_lightyear.png", "Sad..."],
-    "screwyouguys": ["Screw you guys", "ScrewYouGuys.ogg", null, null],
     "panda": ["Sad Panda", "sad_panda.ogg", "sad_panda.png", null],
-    "chosepoorly": ["Poor Choice", "HeChosePoorly.ogg", null, null],
+    "scissorkick": ["Scissor Kick", "scissor-kick.ogg", "scissor-kick.jpg", null],
+    "screwyouguys": ["Screw you guys", "ScrewYouGuys.ogg", null, null],
     "sheeeit": ["Sheeeit", "sheeeit.ogg", "clay_davis.png", null],
+    "simpleQuestion": ["Simple question", "EatTheMoon.ogg", "simplequestion.jpg", "It is a simple question!"],
+    "soLonely": ["So lonely", "SoRonrey.ogg", "im_so_ronery.jpg", null],
+    "sorryiamlate": ["Sorry I'm Late", "SorryIAmLate.ogg", null, "Sorry I am late!"],
+	"bane": ["Stand on Ceremony", "stand_on_ceremony.ogg", "stand_on_ceremony.jpg", null],
     "ladiesandgents": ["Steve Ballmer", "steve_ballmer-ladies_and_gentleman.ogg", "steve_ballmer.png", null],
-    "tardis": ["Tardis", "tardis.ogg", "tardis.png", "wooOOooww wooOOoow wooOOoow" ],
-    "final": ["The Final Countdown", "final.ogg", null, "The Final Countdown" ],
+    "dontcallmeshirley": ["Surely you can't be serious", "dont_call_me_shirley.ogg", "dont_call_me_shirley.gif", null],
+
+    "teamamerica": ["Team America", "AmericaClean.ogg", "teamamerica.jpg", null],
+    "final": ["The Final Countdown", "final.ogg", "final-countdown.gif", null],
+    "threwitontheground": ["Threw it on the ground!", "ThrewItOnTheGround.ogg", "threw-it-on-the-ground.gif", "My dad's not a phone! DUH!" ],
     "timmy": ["Timmy!", "timmy.ogg", "timmy.png", null],
-    "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
-    "verbal": ["Verbal morality", "verbal_morality.ogg", "verbal_morality.png", null],
-    "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
+	"letsgo": ["To the idiotmobile!", "idiotmbl.ogg", null, null],
+
+	"verbal": ["Verbal morality", "verbal_morality.ogg", "verbal_morality.png", null],
+	
+    "what": ["What?", "WhatMinion.ogg", "what.gif", null],
+    "whatLove": ["What do you love?", "WhatDoYouLove.ogg", null, "What do you love?"],
+    "whatisthis": ["What is this?", "WhatIsThis.ogg", "WhatIsThis.jpg", "What is this?"],
     "winning": ["Winning", "winning.ogg", "charlie-sheen-crazy-eyes.png", null],
-    "thebest": ["You're the best", "YouAreTheBest.ogg", null, null],
+    "winter": ["Winter is coming", "WinterIsComing.ogg", "winteriscoming.jpg", null],
+
+    "yeah": ["Yeah, Yeah!", "YeahYeahYeah.ogg", "yeah-yeah-yeah.jpg", "Yeah, Yeah, Yeah, Yeah, Yeah"],
+    "youawizard": ["You're a wizard", "WizardHarry.ogg", "wizard-harry.gif", null],
+    "yourcrazy": ["You're crazy", "YourCrazy.ogg", "i-like-you-but-youre-crazy.jpg", null],
+    "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
+    "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
+    "thebest": ["You're the best", "YouAreTheBest.ogg", "youre-the-best.jpg", "You're the best... around!"]
 }
+
+var soundKeys = Object.keys(sounds);
+var soundKeysLength = soundKeys.length;
 
 var audio = null;
 var re = /:soundcamp \w+/;
@@ -76,8 +120,7 @@ function tellPlaySound(sound) {
 function addChatSoundHTML(node, sound) {
     var s = sounds[sound];
     if (!s) {
-        node.html('<span class="scMsgUnknown">Unknown sound "'+
-            sound +'".</span>');
+        node.html('<span class="scMsgUnknown">Unknown sound "'+ sound +'".</span>');
         return;
     }
 
@@ -88,14 +131,13 @@ function addChatSoundHTML(node, sound) {
             '"></span>';
     }
     if (s[3]) {
-        html += '<span class="scMsg">'+ s[3] +'</span>';
+        html += '<span class="scMsg" style="padding-left: 16px; font-weight: bold; font-size: 1.1em;">'+ s[3] +'</span>';
     }
     if (html === '') {
-        html = '<span class="scMsg">'+ s[0] +'</span>';
+        html += '<span class="scMsg" style="padding-left: 16px; font-weight: bold; font-size: 1.1em;">'+ s[0] +'</span>';
     }
 
-    var snd_img = $('<img>').attr('alt', "Sound").attr('class',
-    'scSndIcon').attr('src', '/images/sound.png');
+    var snd_img = $('<span>♫</span>').attr('alt', "Sound").attr('class', 'scSndIcon');
     $(snd_img).click(function() { playSound(sound); });
 
     node.html('');
@@ -140,8 +182,13 @@ function processSoundCommand(msgBody, play) {
         var sound = msg.replace(':soundcamp ', '');
         //msgBody.replaceWith(sound);
         addChatSoundHTML(msgBody, sound);
-        if (play && soundEnabled())
+        if (play && soundEnabled()) {	
             playSound(sound);
+	}
+	// scroll to bottom of chat div
+	setTimeout(function() {
+		$('#chats .chat_display:visible').scrollTop($('#chats .chat_display:visible')[0].scrollHeight);
+	}, 200);
     }
 }
 
@@ -160,25 +207,56 @@ function scanAllMessages() {
 }
 
 function initControls() {
-    $('<div>').attr('id', 'soundcamp_sounds').attr('class', 'sctooltip').appendTo('#chat_controls');
-    $('<span>').attr('id', 'soundcampContainer').attr('class', 'sctooltip-inner').appendTo('#soundcamp_sounds');
-    $('<img>').attr('src',
-    chrome.extension.getURL('images/music.png')).attr('id', 'soundcamp_button').attr('width', '16').attr('height', '15').appendTo('#soundcamp_sounds');
-
-    var table = $('<table>').attr('id', 'soundcampTable').appendTo('#soundcampContainer');
+    $('<div>').attr('id', 'soundCamp-wrapper').attr('class', 'sctooltip').appendTo('#chat_controls');
+    $('<div>').attr('id', 'soundcampContainer').attr('class', 'sctooltip-outer').appendTo('#soundCamp-wrapper');	
+	var soundCampIcon = $('<img>')
+						.attr('src', chrome.extension.getURL('images/music.png'))
+						.attr('id', 'soundcamp_button')
+						.attr('width', '16')
+						.attr('height', '15')
+						.attr('title', 'Play SoundCamp Sound..')
+						.appendTo('#soundCamp-wrapper');
+	
+	var innerCont = $('<div>').attr('class', 'sctooltip-inner').appendTo('#soundcampContainer');
+    
+    var table = $('<table>').attr('id', 'soundcampTable').appendTo(innerCont);
     table.append('<tbody>');
     var row;
     var sound;
-    var i = 0;
-    for (sound in sounds) {
-        if (i == 0) {
+    var j = 0;
+	
+	for (var i = 0; i < soundKeysLength; i++)
+	{
+		var currentSoundKey = soundKeys[i];
+		sound = sounds[currentSoundKey];    
+		
+		if (j == 0) {
             row = $('#soundcampTable > tbody:last').append('<tr>');
         }
-        i = (i + 1) % 3;
-        row.append('<td><a class="sound" data-value="'+
-            sound +'">' + (sounds[sound])[0] + '</td>');
-    }
-
+        j = (j + 1) % 3;
+		
+		if (sound[2] != null) {
+			row.append('<td class="mini-icon-col"><img src="' + chrome.extension.getURL("images/" + sound[2]) + '" style="height: 20px;" /></td>');
+		} else {
+			row.append('<td class="mini-icon-col">&nbsp;</td>');
+		}
+		
+		var hyperLink = $('<a class="sound" data-value="' + currentSoundKey + '"></a>').text(sound[0]);
+		
+		if (sound[3] != null) {
+			hyperLink.attr('title', sound[3]);
+		}
+		
+		if (sound[2] == null) {
+			hyperLink.css('color', '#888');
+		}
+		
+		var newRow = $('<td></td>');
+		newRow.append(hyperLink);
+		
+        row.append(newRow);
+	}
+	
     $(document).click(function (e) {
         if (e.target.id !== 'soundcamp_button' &&
             $('#soundcamp_button').find(e.target).length === 0) {
@@ -192,6 +270,8 @@ function initControls() {
         var sound = this.getAttribute('data-value');
         tellPlaySound(sound);
     });
+	
+	$('#soundcampContainer').css('margin-left', '-591px'); // TODO: auto-calculate based on width of the popup, etc. -- or turn into a modal or something.
 }
 
 function initListener() {
