@@ -17,7 +17,7 @@ var sounds = {
     "cash": ["Cash", "gimmiecash.ogg", "GimmeDaCash.gif", null],
     "catchaboat": ["Catch a boat", "ricky-catch_a_boat.ogg", "ricky.png", null],
     "espresso": ["Coffee, anyone?", "espresso.ogg", "espresso.png", "Anyone for coffee?"],
-    "communicate": ["Communicate", "chl-communicate.ogg", null, "What we have here..."],
+    "communicate": ["Communicate", "chl-communicate.ogg", null, "What we've got here..."],
     "developers": ["Developers...", "steve_ballmer-developers.ogg", "steve_ballmer.png", null],
     "exterminate": ["Exterminate!", "dalek-exterminate.ogg", "dalek.png", "Exterminate!"],
     "facepalm": ["Facepalm", null, "facepalm.png", "..."],
