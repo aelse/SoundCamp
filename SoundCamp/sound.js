@@ -58,7 +58,7 @@ var sounds = {
     "right": ["You're right", "chuck_norris-youre_right.ogg", "chuck_norris.png", null],
     "verbal": ["Verbal morality", "verbal_morality.ogg", "verbal_morality.png", null],
     "wrong": ["You're wrong", "dr_cox-youre_wrong.ogg", "scrubs.png", null],
-    "mess": ["What a mess", "what_a_mess.ogg", null, ":scream:"],
+    "mess": ["What a mess", "what_a_mess.ogg", "scream.png", null],
     "winning": ["Winning", "winning.ogg", "charlie-sheen-crazy-eyes.png", null],
     "thebest": ["You're the best", "YouAreTheBest.ogg", null, null],
 }

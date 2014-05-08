@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "SoundCamp",
-  "version": "1.37",
+  "version": "1.38",
   "homepage_url": "http://aelse.github.com/SoundCamp/",
   "description": "Custom sounds for campfire.",
   "icons": {
@@ -51,6 +51,7 @@
     "images/sad_panda.png",
     "images/sc_logo_128.png",
     "images/sc_logo_48.png",
+    "images/scream.png",
     "images/scrubs.png",
     "images/speaker_128.png",
     "images/speaker.png",
